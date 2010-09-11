@@ -1,0 +1,9 @@
+page.replace_html "#{@gift.id}", '<img src="images/spinner.gif" alt="Loading..."/>'
+
+page.delay(seconds = 1) do
+  page.replace_html "#{@gift.id}", '<td colspan="2"><div class="thanks">Sian & Dave thank you for the gift!!! We look forward to receiving it  =)</span></td>'
+
+  page.delay(seconds = 2) do
+    page.replace_html "#{@gift.id}", :partial => 'our_gift', :locals => { :gift => @gift }
+  end
+end

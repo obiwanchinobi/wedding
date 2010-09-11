@@ -1,29 +1,24 @@
+<hr />
 <h3>Your Gift Ideas</h3>
 
-  <% @categories.each do |category| %>
-    <% if category.gifts.other_gifts.present? %>
-    <h5><%= category.description %></h5>
-      <table>
+<p><a href="gifts/new?other_gift=true" rel="facebox">Add new pressie</a></p>
+
+<% @categories.each do |category| %>
+  <% if category.gifts.other_gifts.present? %>
+  <h5><%= category.description %></h5>
+    <table>
+    
+      <% category.gifts.other_gifts.each do |gift| %>
         <tr>
-          <th>Description</th>
+          <td class="grid_10 alpha"><div class="claimed"><%=h gift.description %></div></td>
+          <td class="grid_2 alpha omega">
+            <a href="gifts/<%= gift.id %>/edit" rel="facebox">Edit</a>
+            |
+            <%= link_to 'Remove', gift, :confirm => 'Are you sure you want delete this item from the list?', :method => :delete %>
+          </td>
         </tr>
-        
-        <% category.gifts.other_gifts.each do |gift| %>
-          <tr>
-            <td><%=h gift.description %></td>
-            <td>
-              <%= link_to 'Edit', edit_gift_path(gift) %>
-              |
-              <%= link_to 'Remove', gift, :confirm => 'Are you sure you want delete this item from the list?', :method => :delete %>
-            </td>
-            <td></td>
-          </tr>
-        <% end %>
-        
-        </table>
-    <% end %>
+      <% end %>
+      
+      </table>
   <% end %>
-
-<br />
-
-<%= link_to 'New gift', new_gift_path(:other_gift => true) %>
+<% end %>

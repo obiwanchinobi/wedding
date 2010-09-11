@@ -1,0 +1,16 @@
+<td class="grid_10 alpha">
+  <div class="<%= gift.purchased_on.present? ? 'claimed' : '' %>">
+    <%=h gift.description %>
+  </div>
+</td>
+<td class="grid_2 alpha omega">
+  <% if params[:admin].present? && params[:admin] == "1" %>
+    <a href="gifts/<%= gift.id %>/edit" rel="facebox">Edit</a>
+    |
+  <% end %>
+  <% if gift.purchased_on.blank? %>
+    <%= link_to_remote 'Claim this gift!', :url => { :controller => "gifts", :action => "purchase", :id => gift.id }, :confirm => 'Are you sure you want to purchase this gift?' %>
+  <% else %>
+    <%= link_to_remote 'Unclaim me', :url => { :controller => "gifts", :action => "unpurchase", :id => gift.id }, :confirm => 'Are you sure you want to cancel this purchase?' %>
+  <% end %>
+</td>

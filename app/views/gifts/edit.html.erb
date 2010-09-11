@@ -9,7 +9,7 @@
   </p>
   <p>
     <%= f.label :category_id %><br />
-    <%= f.select :category_id, @categories, :selected => 5 %>
+    <%= f.select :category_id, @categories %>
   </p>
   <% if params[:admin].present? && params[:admin] == "1" %>
     <p>
@@ -19,8 +19,7 @@
   <% end %>
   <p>
     <%= f.submit 'Update' %>
+    |
+    <%= link_to 'Back', gifts_path %>
   </p>
 <% end %>
-
-<%= link_to 'Show', @gift %> |
-<%= link_to 'Back', gifts_path %>
