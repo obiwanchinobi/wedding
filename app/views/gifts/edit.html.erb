@@ -1,0 +1,24 @@
+<h1>Editing gift</h1>
+
+<% form_for(@gift) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :description %><br />
+    <%= f.text_field :description %>
+  </p>
+  <p>
+    <%= f.label :is_admin %><br />
+    <%= f.check_box :is_admin %>
+  </p>
+  <p>
+    <%= f.label :purchased_on %><br />
+    <%= f.date_select :purchased_on %>
+  </p>
+  <p>
+    <%= f.submit 'Update' %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @gift %> |
+<%= link_to 'Back', gifts_path %>

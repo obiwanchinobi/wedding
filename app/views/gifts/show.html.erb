@@ -1,0 +1,18 @@
+<p>
+  <b>Description:</b>
+  <%=h @gift.description %>
+</p>
+
+<p>
+  <b>Is admin:</b>
+  <%=h @gift.is_admin %>
+</p>
+
+<p>
+  <b>Purchased on:</b>
+  <%=h @gift.purchased_on %>
+</p>
+
+
+<%= link_to 'Edit', edit_gift_path(@gift) %> |
+<%= link_to 'Back', gifts_path %>
