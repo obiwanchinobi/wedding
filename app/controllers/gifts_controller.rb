@@ -2,9 +2,12 @@ class GiftsController < ApplicationController
   # GET /gifts
   # GET /gifts.xml
   def index
-    @our_gifts = Gift.our_gifts
-    @other_gifts = Gift.other_gifts
-
+    @categories = Category.all(:order => :description)
+    
+    # @our_gifts = Gift.our_gifts
+    # @other_gifts = Gift.other_gifts
+    # @currently_own = Gift.currently_own
+    
     respond_to do |format|
       format.html # index.html.erb
     end
@@ -13,10 +16,14 @@ class GiftsController < ApplicationController
   # GET /gifts/new
   # GET /gifts/new.xml
   def new
+    @categories = Category.all(:order => :description).map {|u| [u.description, u.id] }
+    
     if params[:is_admin].present?
       @gift =  Gift.new(:is_admin => true)
     elsif params[:other_gift].present?
       @gift =  Gift.new(:purchased_on => Time.zone.now.to_date)
+    elsif params[:currently_own].present?
+      @gift =  Gift.new(:is_admin => true, :currently_own => true)
     end
 
     respond_to do |format|
@@ -28,6 +35,8 @@ class GiftsController < ApplicationController
   # GET /gifts/1/edit
   def edit
     @gift = Gift.find(params[:id])
+    
+    @categories = Category.all(:order => :description).map {|u| [u.description, u.id] }
   end
 
   # POST /gifts

@@ -1,8 +1,11 @@
 class Gift < ActiveRecord::Base
   validates_presence_of :description
   
-  named_scope :our_gifts, :conditions => { :is_admin => true }
-  named_scope :other_gifts, :conditions => { :is_admin => false }
+  belongs_to :category
+  
+  named_scope :our_gifts, :conditions => { :is_admin => true, :currently_own => false }, :order => :description
+  named_scope :currently_own, :conditions => { :currently_own => true }, :order => :description
+  named_scope :other_gifts, :conditions => { :is_admin => false, :currently_own => false }, :order => :description
   
   def purchase
     self.purchased_on = Time.zone.now.to_date

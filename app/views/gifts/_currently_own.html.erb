@@ -1,0 +1,24 @@
+<ul>
+  <% @categories.each do |category| %>
+    <% if category.gifts.currently_own.present? %>
+      <h5><%= category.description %></h5>
+      <% category.gifts.currently_own.each do |gift| %>
+        <li>
+          <%=h gift.description %>
+
+          <% if params[:admin].present? && params[:admin] == "1" %>
+            <%= link_to 'Edit', edit_gift_path(gift) %>
+            |
+            <%= link_to 'Remove', gift, :confirm => 'Are you sure you want delete this item from the list?', :method => :delete %>
+          <% end %>
+        </li>
+      <% end %>
+    <% end %>
+  <% end %>
+</ul>
+
+<br />
+
+<% if params[:admin].present? && params[:admin] == "1" %>
+  <%= link_to 'Add another', new_gift_path(:currently_own => true) %>
+<% end %>

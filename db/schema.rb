@@ -9,12 +9,20 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20100911042740) do
+ActiveRecord::Schema.define(:version => 20100911065313) do
+
+  create_table "categories", :force => true do |t|
+    t.string   "description"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "gifts", :force => true do |t|
     t.string   "description"
-    t.boolean  "is_admin",     :default => false
+    t.boolean  "is_admin",      :default => false
     t.date     "purchased_on"
+    t.boolean  "currently_own", :default => false
+    t.integer  "category_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

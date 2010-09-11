@@ -7,6 +7,10 @@
     <%= f.label :description %><br />
     <%= f.text_field :description %>
   </p>
+  <p>
+    <%= f.label :category_id %><br />
+    <%= f.select :category_id, @categories, :selected => 5 %>
+  </p>
   <% if params[:is_admin].present? && params[:is_admin] == "true" %>
     <p>
       <%= f.label :is_admin %><br />
@@ -15,6 +19,9 @@
   <% end %>
   <% if params[:other_gift].present? %>
     <%= f.hidden_field :purchased_on %>
+  <% end %>
+  <% if params[:currently_own].present? %>
+    <%= f.hidden_field :currently_own %>
   <% end %>
   <p>
     <%= f.submit 'Create' %>
