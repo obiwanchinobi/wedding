@@ -7,14 +7,12 @@
     <%= f.label :description %><br />
     <%= f.text_field :description %>
   </p>
-  <p>
-    <%= f.label :is_admin %><br />
-    <%= f.check_box :is_admin %>
-  </p>
-  <p>
-    <%= f.label :purchased_on %><br />
-    <%= f.date_select :purchased_on %>
-  </p>
+  <% if params[:admin].present? && params[:admin] == "1" %>
+    <p>
+      <%= f.label :is_admin %><br />
+      <%= f.check_box :is_admin %>
+    </p>
+  <% end %>
   <p>
     <%= f.submit 'Update' %>
   </p>

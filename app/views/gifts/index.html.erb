@@ -1,24 +1,3 @@
-<h1>Listing gifts</h1>
-
-<table>
-  <tr>
-    <th>Description</th>
-    <th>Is admin</th>
-    <th>Purchased on</th>
-  </tr>
-
-<% @gifts.each do |gift| %>
-  <tr>
-    <td><%=h gift.description %></td>
-    <td><%=h gift.is_admin %></td>
-    <td><%=h gift.purchased_on %></td>
-    <td><%= link_to 'Show', gift %></td>
-    <td><%= link_to 'Edit', edit_gift_path(gift) %></td>
-    <td><%= link_to 'Destroy', gift, :confirm => 'Are you sure?', :method => :delete %></td>
-  </tr>
-<% end %>
-</table>
-
-<br />
-
-<%= link_to 'New gift', new_gift_path %>
+<%= render :partial => "web_copy" %>
+<%= render :partial => "our_gifts" %>
+<%= render :partial => "other_gifts" %>

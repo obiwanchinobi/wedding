@@ -24,3 +24,3367 @@ Processing GiftsController#index (for 127.0.0.1 at 2010-09-11 14:29:37) [GET]
 Rendering template within layouts/gifts
 Rendering gifts/index
 Completed in 22ms (View: 17, DB: 0) | 200 OK [http://localhost/gifts]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#index (for 127.0.0.1 at 2010-09-11 14:40:42) [GET]
+  [4;35;1mGift Load (0.2ms)[0m   [0mSELECT * FROM `gifts` [0m
+Rendering template within layouts/gifts
+Rendering gifts/index
+Completed in 63ms (View: 58, DB: 0) | 200 OK [http://localhost/gifts]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-09-11 14:40:42) [GET]
+
+ActionController::RoutingError (No route matches "/css/reset.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-09-11 14:40:42) [GET]
+
+ActionController::RoutingError (No route matches "/css/text.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-09-11 14:40:42) [GET]
+
+ActionController::RoutingError (No route matches "/css/960.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#index (for 127.0.0.1 at 2010-09-11 14:40:49) [GET]
+  [4;36;1mGift Load (0.2ms)[0m   [0;1mSELECT * FROM `gifts` [0m
+Rendering template within layouts/gifts
+Rendering gifts/index
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/gifts]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-09-11 14:40:49) [GET]
+
+ActionController::RoutingError (No route matches "/css/reset.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-09-11 14:40:49) [GET]
+
+ActionController::RoutingError (No route matches "/css/text.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-09-11 14:40:49) [GET]
+
+ActionController::RoutingError (No route matches "/css/960.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#index (for 127.0.0.1 at 2010-09-11 14:41:12) [GET]
+  [4;35;1mGift Load (0.2ms)[0m   [0mSELECT * FROM `gifts` [0m
+Rendering template within layouts/gifts
+Rendering gifts/index
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/gifts]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-09-11 14:41:12) [GET]
+
+ActionController::RoutingError (No route matches "/css/reset.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-09-11 14:41:12) [GET]
+
+ActionController::RoutingError (No route matches "/css/text.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-09-11 14:41:12) [GET]
+
+ActionController::RoutingError (No route matches "/css/960.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#index (for 127.0.0.1 at 2010-09-11 14:41:18) [GET]
+  [4;36;1mGift Load (0.2ms)[0m   [0;1mSELECT * FROM `gifts` [0m
+Rendering template within layouts/gifts
+Rendering gifts/index
+Completed in 8ms (View: 4, DB: 0) | 200 OK [http://localhost/gifts]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-09-11 14:41:18) [GET]
+
+ActionController::RoutingError (No route matches "/css/reset.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-09-11 14:41:18) [GET]
+
+ActionController::RoutingError (No route matches "/css/text.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-09-11 14:41:18) [GET]
+
+ActionController::RoutingError (No route matches "/css/960.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#index (for 127.0.0.1 at 2010-09-11 14:43:20) [GET]
+  [4;35;1mGift Load (0.3ms)[0m   [0mSELECT * FROM `gifts` [0m
+Rendering template within layouts/gifts
+Rendering gifts/index
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/gifts]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-09-11 14:43:20) [GET]
+
+ActionController::RoutingError (No route matches "/css/reset.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-09-11 14:43:20) [GET]
+
+ActionController::RoutingError (No route matches "/css/text.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-09-11 14:43:20) [GET]
+
+ActionController::RoutingError (No route matches "/css/960.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#index (for 127.0.0.1 at 2010-09-11 14:43:40) [GET]
+  [4;36;1mGift Load (0.2ms)[0m   [0;1mSELECT * FROM `gifts` [0m
+Rendering template within layouts/gifts
+Rendering gifts/index
+Completed in 10ms (View: 5, DB: 0) | 200 OK [http://localhost/gifts]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#index (for 127.0.0.1 at 2010-09-11 14:43:50) [GET]
+  [4;35;1mGift Load (0.3ms)[0m   [0mSELECT * FROM `gifts` [0m
+Rendering template within layouts/gifts
+Rendering gifts/index
+Completed in 9ms (View: 4, DB: 0) | 200 OK [http://localhost/gifts]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#index (for 127.0.0.1 at 2010-09-11 14:44:30) [GET]
+  [4;36;1mGift Load (0.2ms)[0m   [0;1mSELECT * FROM `gifts` [0m
+Rendering template within layouts/gifts
+Rendering gifts/index
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/gifts]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#index (for 127.0.0.1 at 2010-09-11 14:44:39) [GET]
+  [4;35;1mGift Load (0.2ms)[0m   [0mSELECT * FROM `gifts` [0m
+Rendering template within layouts/gifts
+Rendering gifts/index
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/gifts]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#new (for 127.0.0.1 at 2010-09-11 14:44:44) [GET]
+  [4;36;1mGift Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `gifts`[0m
+Rendering template within layouts/gifts
+Rendering gifts/new
+Completed in 22ms (View: 17, DB: 1) | 200 OK [http://localhost/gifts/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#stylesheets to css (for 127.0.0.1 at 2010-09-11 14:44:44) [GET]
+  Parameters: {"id"=>"reset"}
+
+ActionController::UnknownAction (No action responded to stylesheets. Actions: create, destroy, edit, index, new, show, and update):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#stylesheets to css (for 127.0.0.1 at 2010-09-11 14:44:44) [GET]
+  Parameters: {"id"=>"text"}
+
+ActionController::UnknownAction (No action responded to stylesheets. Actions: create, destroy, edit, index, new, show, and update):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#stylesheets to css (for 127.0.0.1 at 2010-09-11 14:44:44) [GET]
+  Parameters: {"id"=>"960"}
+
+ActionController::UnknownAction (No action responded to stylesheets. Actions: create, destroy, edit, index, new, show, and update):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#index (for 127.0.0.1 at 2010-09-11 14:44:49) [GET]
+  [4;35;1mGift Load (0.2ms)[0m   [0mSELECT * FROM `gifts` [0m
+Rendering template within layouts/gifts
+Rendering gifts/index
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/gifts]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#index (for 127.0.0.1 at 2010-09-11 14:46:09) [GET]
+  [4;36;1mGift Load (0.3ms)[0m   [0;1mSELECT * FROM `gifts` [0m
+Rendering template within layouts/gifts
+Rendering gifts/index
+Completed in 9ms (View: 4, DB: 0) | 200 OK [http://localhost/gifts]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#index (for 127.0.0.1 at 2010-09-11 14:47:04) [GET]
+  [4;35;1mGift Load (0.2ms)[0m   [0mSELECT * FROM `gifts` [0m
+Rendering template within layouts/gifts
+Rendering gifts/index
+Completed in 9ms (View: 4, DB: 0) | 200 OK [http://localhost/gifts]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#index (for 127.0.0.1 at 2010-09-11 14:49:03) [GET]
+  [4;36;1mGift Load (0.2ms)[0m   [0;1mSELECT * FROM `gifts` [0m
+Rendering template within layouts/gifts
+Rendering gifts/index
+
+ActionView::TemplateError (Missing template gifts/_web_copy.erb in view path app/views) on line #16 of app/views/layouts/gifts.html.erb:
+13:   <div class="container_16">
+14:     <div class="grid_16 alpha omega">
+15:       <h1>Title goes here</h1>
+16:       <%= render :partial => "web_copy" %>
+17:     </div>
+18:     <div class="grid_12 alpha">
+19:       <h2>Gift ideas</h2>
+
+    app/views/layouts/gifts.html.erb:16
+    app/controllers/gifts_controller.rb:7:in `index'
+
+Rendered rescues/_trace (48.4ms)
+Rendered rescues/_request_and_response (1.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#index (for 127.0.0.1 at 2010-09-11 14:49:21) [GET]
+  [4;35;1mGift Load (0.3ms)[0m   [0mSELECT * FROM `gifts` [0m
+Rendering template within layouts/gifts
+Rendering gifts/index
+Rendered layouts/_web_copy (0.3ms)
+Completed in 12ms (View: 8, DB: 0) | 200 OK [http://localhost/gifts]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#index (for 127.0.0.1 at 2010-09-11 14:49:38) [GET]
+  [4;36;1mGift Load (0.2ms)[0m   [0;1mSELECT * FROM `gifts` [0m
+Rendering template within layouts/gifts
+Rendering gifts/index
+Rendered layouts/_web_copy (0.4ms)
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/gifts]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#index (for 127.0.0.1 at 2010-09-11 14:54:57) [GET]
+  [4;35;1mGift Load (0.2ms)[0m   [0mSELECT * FROM `gifts` [0m
+Rendering template within layouts/gifts
+Rendering gifts/index
+Rendered layouts/_web_copy (0.1ms)
+Completed in 9ms (View: 4, DB: 0) | 200 OK [http://localhost/gifts]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#index (for 127.0.0.1 at 2010-09-11 14:55:02) [GET]
+  Parameters: {"admin"=>"1"}
+  [4;36;1mGift Load (0.3ms)[0m   [0;1mSELECT * FROM `gifts` [0m
+Rendering template within layouts/gifts
+Rendering gifts/index
+Rendered layouts/_web_copy (0.1ms)
+Completed in 6ms (View: 1, DB: 0) | 200 OK [http://localhost/gifts?admin=1]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#index (for 127.0.0.1 at 2010-09-11 14:55:10) [GET]
+  Parameters: {"admin"=>"1"}
+  [4;35;1mGift Load (0.2ms)[0m   [0mSELECT * FROM `gifts` [0m
+Rendering template within layouts/gifts
+Rendering gifts/index
+Rendered layouts/_web_copy (0.1ms)
+Completed in 6ms (View: 1, DB: 0) | 200 OK [http://localhost/gifts?admin=1]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#index (for 127.0.0.1 at 2010-09-11 14:55:17) [GET]
+  Parameters: {"admin"=>"1"}
+  [4;36;1mGift Load (0.2ms)[0m   [0;1mSELECT * FROM `gifts` [0m
+Rendering template within layouts/gifts
+Rendering gifts/index
+Rendered layouts/_web_copy (0.1ms)
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/gifts?admin=1]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#index (for 127.0.0.1 at 2010-09-11 14:55:26) [GET]
+  Parameters: {"admin"=>"1"}
+  [4;35;1mGift Load (0.3ms)[0m   [0mSELECT * FROM `gifts` [0m
+Rendering template within layouts/gifts
+Rendering gifts/index
+Rendered layouts/_web_copy (0.1ms)
+Completed in 6ms (View: 1, DB: 0) | 200 OK [http://localhost/gifts?admin=1]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#index (for 127.0.0.1 at 2010-09-11 14:55:50) [GET]
+  Parameters: {"admin"=>"1"}
+  [4;36;1mGift Load (0.2ms)[0m   [0;1mSELECT * FROM `gifts` [0m
+Rendering template within layouts/gifts
+Rendering gifts/index
+Rendered layouts/_web_copy (0.1ms)
+Completed in 6ms (View: 1, DB: 0) | 200 OK [http://localhost/gifts?admin=1]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#index (for 127.0.0.1 at 2010-09-11 14:56:00) [GET]
+  Parameters: {"admin"=>"1"}
+  [4;35;1mGift Load (0.2ms)[0m   [0mSELECT * FROM `gifts` [0m
+Rendering template within layouts/gifts
+Rendering gifts/index
+Rendered layouts/_web_copy (0.1ms)
+Completed in 6ms (View: 1, DB: 0) | 200 OK [http://localhost/gifts?admin=1]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#index (for 127.0.0.1 at 2010-09-11 14:56:01) [GET]
+  Parameters: {"admin"=>"1"}
+  [4;36;1mGift Load (0.2ms)[0m   [0;1mSELECT * FROM `gifts` [0m
+Rendering template within layouts/gifts
+Rendering gifts/index
+Rendered layouts/_web_copy (0.1ms)
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/gifts?admin=1]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#index (for 127.0.0.1 at 2010-09-11 14:56:01) [GET]
+  Parameters: {"admin"=>"1"}
+  [4;35;1mGift Load (0.3ms)[0m   [0mSELECT * FROM `gifts` [0m
+Rendering template within layouts/gifts
+Rendering gifts/index
+Rendered layouts/_web_copy (0.1ms)
+Completed in 6ms (View: 1, DB: 1) | 200 OK [http://localhost/gifts?admin=1]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#index (for 127.0.0.1 at 2010-09-11 14:56:50) [GET]
+  Parameters: {"admin"=>"1"}
+  [4;36;1mGift Load (0.2ms)[0m   [0;1mSELECT * FROM `gifts` [0m
+Rendering template within layouts/gifts
+Rendering gifts/index
+ERROR: compiling _run_erb_app47views47gifts47_our_gift_ideas46html46erb_locals_object_our_gift_ideas RAISED compile error
+/Users/dtong/Dropbox/sandbox/wedding/app/views/gifts/_our_gift_ideas.html.erb:21: syntax error, unexpected kEND
+;  -end ; @output_buffer
+       ^
+/Users/dtong/Dropbox/sandbox/wedding/app/views/gifts/_our_gift_ideas.html.erb:24: syntax error, unexpected $end, expecting kEND
+Function body:           def _run_erb_app47views47gifts47_our_gift_ideas46html46erb_locals_object_our_gift_ideas(local_assigns)
+            old_output_buffer = output_buffer;our_gift_ideas = local_assigns[:our_gift_ideas];object = local_assigns[:object];;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat((debugger(params)).to_s); @output_buffer.concat "\n\n<table>\n  <tr>\n    <th>Description</th>\n  </tr>\n\n"
+
+
+
+
+
+
+;  @gifts.each do |gift| ; @output_buffer.concat "\n  <tr>\n    <td>"
+
+; @output_buffer.concat((h gift.description ).to_s); @output_buffer.concat "</td>\n    <td>"
+; @output_buffer.concat(( link_to 'Edit', edit_gift_path(gift) ).to_s); @output_buffer.concat "</td>\n    <td>"
+; @output_buffer.concat(( link_to 'Destroy', gift, :confirm => 'Are you sure you want delete this item from the list?', :method => :delete ).to_s); @output_buffer.concat "</td>\n  </tr>\n"
+
+;  end ; @output_buffer.concat "\n</table>\n\n<br />\n\n"
+
+
+
+
+;  -if params[:admin] == 1 ; @output_buffer.concat "\n  "
+; @output_buffer.concat(( link_to 'New gift', new_gift_path ).to_s); @output_buffer.concat "\n"
+;  -end ; @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /Users/dtong/Dropbox/sandbox/wedding/app/views/gifts/_our_gift_ideas.html.erb:24:in `compile!'
+/Users/dtong/Dropbox/sandbox/wedding/vendor/rails/actionpack/lib/action_view/renderable.rb:61:in `compile'
+/Users/dtong/Dropbox/sandbox/wedding/vendor/rails/actionpack/lib/action_view/renderable.rb:28:in `render'
+/Users/dtong/Dropbox/sandbox/wedding/vendor/rails/actionpack/lib/action_view/renderable_partial.rb:20:in `render'
+/Users/dtong/Dropbox/sandbox/wedding/vendor/rails/actionpack/lib/action_controller/benchmarking.rb:26:in `benchmark'
+/Users/dtong/Dropbox/sandbox/wedding/vendor/rails/activesupport/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Users/dtong/Dropbox/sandbox/wedding/vendor/rails/activesupport/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/dtong/Dropbox/sandbox/wedding/vendor/rails/actionpack/lib/action_controller/benchmarking.rb:26:in `benchmark'
+/Users/dtong/Dropbox/sandbox/wedding/vendor/rails/actionpack/lib/action_view/renderable_partial.rb:19:in `render'
+/Users/dtong/Dropbox/sandbox/wedding/vendor/rails/actionpack/lib/action_view/template.rb:205:in `render_template'
+/Users/dtong/Dropbox/sandbox/wedding/vendor/rails/actionpack/lib/action_view/renderable_partial.rb:44:in `render_partial'
+/Users/dtong/Dropbox/sandbox/wedding/vendor/rails/actionpack/lib/action_view/partials.rb:184:in `render_partial'
+/Users/dtong/Dropbox/sandbox/wedding/vendor/rails/actionpack/lib/action_view/base.rb:267:in `render'
+/Users/dtong/Dropbox/sandbox/wedding/app/views/gifts/index.html.erb:1:in `_run_erb_app47views47gifts47index46html46erb'
+/Users/dtong/Dropbox/sandbox/wedding/vendor/rails/actionpack/lib/action_view/renderable.rb:34:in `send'
+/Users/dtong/Dropbox/sandbox/wedding/vendor/rails/actionpack/lib/action_view/renderable.rb:34:in `render'
+/Users/dtong/Dropbox/sandbox/wedding/vendor/rails/actionpack/lib/action_view/base.rb:306:in `with_template'
+/Users/dtong/Dropbox/sandbox/wedding/vendor/rails/actionpack/lib/action_view/renderable.rb:30:in `render'
+/Users/dtong/Dropbox/sandbox/wedding/vendor/rails/actionpack/lib/action_view/template.rb:205:in `render_template'
+/Users/dtong/Dropbox/sandbox/wedding/vendor/rails/actionpack/lib/action_view/base.rb:265:in `render'
+/Users/dtong/Dropbox/sandbox/wedding/vendor/rails/actionpack/lib/action_view/base.rb:348:in `_render_with_layout'
+/Users/dtong/Dropbox/sandbox/wedding/vendor/rails/actionpack/lib/action_view/base.rb:262:in `render'
+/Users/dtong/Dropbox/sandbox/wedding/vendor/rails/actionpack/lib/action_controller/base.rb:1250:in `render_for_file'
+/Users/dtong/Dropbox/sandbox/wedding/vendor/rails/actionpack/lib/action_controller/base.rb:942:in `render_without_benchmark'
+/Users/dtong/Dropbox/sandbox/wedding/vendor/rails/actionpack/lib/action_controller/benchmarking.rb:51:in `render'
+/Users/dtong/Dropbox/sandbox/wedding/vendor/rails/activesupport/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Users/dtong/Dropbox/sandbox/wedding/vendor/rails/activesupport/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/dtong/Dropbox/sandbox/wedding/vendor/rails/actionpack/lib/action_controller/benchmarking.rb:51:in `render'
+/Users/dtong/Dropbox/sandbox/wedding/vendor/rails/actionpack/lib/action_controller/mime_responds.rb:135:in `send'
+/Users/dtong/Dropbox/sandbox/wedding/vendor/rails/actionpack/lib/action_controller/mime_responds.rb:135:in `custom'
+/Users/dtong/Dropbox/sandbox/wedding/vendor/rails/actionpack/lib/action_controller/mime_responds.rb:179:in `call'
+/Users/dtong/Dropbox/sandbox/wedding/vendor/rails/actionpack/lib/action_controller/mime_responds.rb:179:in `respond'
+/Users/dtong/Dropbox/sandbox/wedding/vendor/rails/actionpack/lib/action_controller/mime_responds.rb:173:in `each'
+/Users/dtong/Dropbox/sandbox/wedding/vendor/rails/actionpack/lib/action_controller/mime_responds.rb:173:in `respond'
+/Users/dtong/Dropbox/sandbox/wedding/vendor/rails/actionpack/lib/action_controller/mime_responds.rb:107:in `respond_to'
+/Users/dtong/Dropbox/sandbox/wedding/app/controllers/gifts_controller.rb:8:in `index'
+/Users/dtong/Dropbox/sandbox/wedding/vendor/rails/actionpack/lib/action_controller/base.rb:1331:in `send'
+/Users/dtong/Dropbox/sandbox/wedding/vendor/rails/actionpack/lib/action_controller/base.rb:1331:in `perform_action_without_filters'
+/Users/dtong/Dropbox/sandbox/wedding/vendor/rails/actionpack/lib/action_controller/filters.rb:617:in `call_filters'
+/Users/dtong/Dropbox/sandbox/wedding/vendor/rails/actionpack/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/Users/dtong/Dropbox/sandbox/wedding/vendor/rails/actionpack/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Users/dtong/Dropbox/sandbox/wedding/vendor/rails/activesupport/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Users/dtong/Dropbox/sandbox/wedding/vendor/rails/activesupport/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/dtong/Dropbox/sandbox/wedding/vendor/rails/actionpack/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Users/dtong/Dropbox/sandbox/wedding/vendor/rails/actionpack/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/Users/dtong/Dropbox/sandbox/wedding/vendor/rails/actionpack/lib/action_controller/flash.rb:151:in `perform_action'
+/Users/dtong/Dropbox/sandbox/wedding/vendor/rails/actionpack/lib/action_controller/base.rb:532:in `send'
+/Users/dtong/Dropbox/sandbox/wedding/vendor/rails/actionpack/lib/action_controller/base.rb:532:in `process_without_filters'
+/Users/dtong/Dropbox/sandbox/wedding/vendor/rails/actionpack/lib/action_controller/filters.rb:606:in `process'
+/Users/dtong/Dropbox/sandbox/wedding/vendor/rails/actionpack/lib/action_controller/base.rb:391:in `process'
+/Users/dtong/Dropbox/sandbox/wedding/vendor/rails/actionpack/lib/action_controller/base.rb:386:in `call'
+/Users/dtong/Dropbox/sandbox/wedding/vendor/rails/actionpack/lib/action_controller/routing/route_set.rb:438:in `call'
+/Users/dtong/Dropbox/sandbox/wedding/vendor/rails/actionpack/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/Users/dtong/Dropbox/sandbox/wedding/vendor/rails/actionpack/lib/action_controller/dispatcher.rb:121:in `_call'
+/Users/dtong/Dropbox/sandbox/wedding/vendor/rails/actionpack/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+/Users/dtong/Dropbox/sandbox/wedding/vendor/rails/activerecord/lib/active_record/query_cache.rb:29:in `call'
+/Users/dtong/Dropbox/sandbox/wedding/vendor/rails/activerecord/lib/active_record/query_cache.rb:29:in `call'
+/Users/dtong/Dropbox/sandbox/wedding/vendor/rails/activerecord/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/Users/dtong/Dropbox/sandbox/wedding/vendor/rails/activerecord/lib/active_record/query_cache.rb:9:in `cache'
+/Users/dtong/Dropbox/sandbox/wedding/vendor/rails/activerecord/lib/active_record/query_cache.rb:28:in `call'
+/Users/dtong/Dropbox/sandbox/wedding/vendor/rails/activerecord/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/Users/dtong/Dropbox/sandbox/wedding/vendor/rails/actionpack/lib/action_controller/string_coercion.rb:25:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.1.0/lib/rack/head.rb:9:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.1.0/lib/rack/methodoverride.rb:24:in `call'
+/Users/dtong/Dropbox/sandbox/wedding/vendor/rails/actionpack/lib/action_controller/params_parser.rb:15:in `call'
+/Users/dtong/Dropbox/sandbox/wedding/vendor/rails/actionpack/lib/action_controller/session/cookie_store.rb:99:in `call'
+/Users/dtong/Dropbox/sandbox/wedding/vendor/rails/actionpack/lib/action_controller/failsafe.rb:26:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.1.0/lib/rack/lock.rb:11:in `synchronize'
+/Library/Ruby/Gems/1.8/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+/Users/dtong/Dropbox/sandbox/wedding/vendor/rails/actionpack/lib/action_controller/dispatcher.rb:114:in `call'
+/Users/dtong/Dropbox/sandbox/wedding/vendor/rails/actionpack/lib/action_controller/reloader.rb:34:in `run'
+/Users/dtong/Dropbox/sandbox/wedding/vendor/rails/actionpack/lib/action_controller/dispatcher.rb:108:in `call'
+/Users/dtong/Dropbox/sandbox/wedding/vendor/rails/railties/lib/rails/rack/static.rb:31:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.1.0/lib/rack/urlmap.rb:47:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `each'
+/Library/Ruby/Gems/1.8/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `call'
+/Users/dtong/Dropbox/sandbox/wedding/vendor/rails/railties/lib/rails/rack/debugger.rb:19:in `call'
+/Users/dtong/Dropbox/sandbox/wedding/vendor/rails/railties/lib/rails/rack/log_tailer.rb:17:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.1.0/lib/rack/content_length.rb:13:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.1.0/lib/rack/chunked.rb:15:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:67:in `process'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+/Library/Ruby/Gems/1.8/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:38:in `run'
+/Users/dtong/Dropbox/sandbox/wedding/vendor/rails/railties/lib/commands/server.rb:111
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/Users/dtong/Dropbox/sandbox/wedding/app/views/gifts/_our_gift_ideas.html.erb:21: syntax error, unexpected kEND
+;  -end ; @output_buffer
+       ^
+/Users/dtong/Dropbox/sandbox/wedding/app/views/gifts/_our_gift_ideas.html.erb:24: syntax error, unexpected $end, expecting kEND) on line #21 of app/views/gifts/_our_gift_ideas.html.erb:
+18: 
+19: <% -if params[:admin] == 1 %>
+20:   <%= link_to 'New gift', new_gift_path %>
+21: <% -end %>
+
+    app/views/gifts/_our_gift_ideas.html.erb:24:in `compile!'
+    app/views/gifts/index.html.erb:1
+    app/controllers/gifts_controller.rb:8:in `index'
+
+Rendered rescues/_trace (51.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#index (for 127.0.0.1 at 2010-09-11 14:57:04) [GET]
+  Parameters: {"admin"=>"1"}
+  [4;35;1mGift Load (0.2ms)[0m   [0mSELECT * FROM `gifts` [0m
+Rendering template within layouts/gifts
+Rendering gifts/index
+
+ActionView::TemplateError (can't convert HashWithIndifferentAccess into Integer) on line #1 of app/views/gifts/_our_gift_ideas.html.erb:
+1: <%=debugger(params)%>
+2: 
+3: <table>
+4:   <tr>
+
+    /Library/Ruby/Gems/1.8/gems/ruby-debug-0.10.3/cli/ruby-debug.rb:172:in `stop_next='
+    /Library/Ruby/Gems/1.8/gems/ruby-debug-0.10.3/cli/ruby-debug.rb:172:in `debugger'
+    app/views/gifts/_our_gift_ideas.html.erb:1
+    app/views/gifts/index.html.erb:1
+    app/controllers/gifts_controller.rb:8:in `index'
+
+Rendered rescues/_trace (53.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#index (for 127.0.0.1 at 2010-09-11 14:57:14) [GET]
+  Parameters: {"admin"=>"1"}
+  [4;36;1mGift Load (0.2ms)[0m   [0;1mSELECT * FROM `gifts` [0m
+Rendering template within layouts/gifts
+Rendering gifts/index
+
+ActionView::TemplateError (can't convert String into Integer) on line #1 of app/views/gifts/_our_gift_ideas.html.erb:
+1: <%=debugger(params.inspect)%>
+2: 
+3: <table>
+4:   <tr>
+
+    /Library/Ruby/Gems/1.8/gems/ruby-debug-0.10.3/cli/ruby-debug.rb:172:in `stop_next='
+    /Library/Ruby/Gems/1.8/gems/ruby-debug-0.10.3/cli/ruby-debug.rb:172:in `debugger'
+    app/views/gifts/_our_gift_ideas.html.erb:1
+    app/views/gifts/index.html.erb:1
+    app/controllers/gifts_controller.rb:8:in `index'
+
+Rendered rescues/_trace (118.5ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#index (for 127.0.0.1 at 2010-09-11 14:57:22) [GET]
+  Parameters: {"admin"=>"1"}
+  [4;35;1mGift Load (0.3ms)[0m   [0mSELECT * FROM `gifts` [0m
+Rendering template within layouts/gifts
+Rendering gifts/index
+
+ActionView::TemplateError (can't convert String into Integer) on line #1 of app/views/gifts/_our_gift_ideas.html.erb:
+1: <%debugger(params.inspect)%>
+2: 
+3: <table>
+4:   <tr>
+
+    /Library/Ruby/Gems/1.8/gems/ruby-debug-0.10.3/cli/ruby-debug.rb:172:in `stop_next='
+    /Library/Ruby/Gems/1.8/gems/ruby-debug-0.10.3/cli/ruby-debug.rb:172:in `debugger'
+    app/views/gifts/_our_gift_ideas.html.erb:1
+    app/views/gifts/index.html.erb:1
+    app/controllers/gifts_controller.rb:8:in `index'
+
+Rendered rescues/_trace (118.3ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#index (for 127.0.0.1 at 2010-09-11 14:57:31) [GET]
+  Parameters: {"admin"=>"1"}
+  [4;36;1mGift Load (0.2ms)[0m   [0;1mSELECT * FROM `gifts` [0m
+Rendering template within layouts/gifts
+Rendering gifts/index
+
+ActionView::TemplateError (undefined method `-@' for nil:NilClass) on line #19 of app/views/gifts/_our_gift_ideas.html.erb:
+16: 
+17: <% -if params[:admin] == 1 %>
+18:   <%= link_to 'New gift', new_gift_path %>
+19: <% end %>
+
+    app/views/gifts/_our_gift_ideas.html.erb:19
+    app/views/gifts/index.html.erb:1
+    app/controllers/gifts_controller.rb:8:in `index'
+
+Rendered rescues/_trace (53.5ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#index (for 127.0.0.1 at 2010-09-11 14:57:38) [GET]
+  Parameters: {"admin"=>"1"}
+  [4;35;1mGift Load (0.3ms)[0m   [0mSELECT * FROM `gifts` [0m
+Rendering template within layouts/gifts
+Rendering gifts/index
+Rendered gifts/_our_gift_ideas (0.7ms)
+Rendered layouts/_web_copy (0.1ms)
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/gifts?admin=1]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#index (for 127.0.0.1 at 2010-09-11 14:57:59) [GET]
+  Parameters: {"admin"=>"1"}
+  [4;36;1mGift Load (0.2ms)[0m   [0;1mSELECT * FROM `gifts` [0m
+Rendering template within layouts/gifts
+Rendering gifts/index
+
+ActionView::TemplateError (can't convert HashWithIndifferentAccess into Integer) on line #21 of app/views/gifts/_our_gift_ideas.html.erb:
+18:   <%= link_to 'New gift', new_gift_path %>
+19: <% end %>
+20: 
+21: <%= debugger(params) %>
+
+    /Library/Ruby/Gems/1.8/gems/ruby-debug-0.10.3/cli/ruby-debug.rb:172:in `stop_next='
+    /Library/Ruby/Gems/1.8/gems/ruby-debug-0.10.3/cli/ruby-debug.rb:172:in `debugger'
+    app/views/gifts/_our_gift_ideas.html.erb:21
+    app/views/gifts/index.html.erb:1
+    app/controllers/gifts_controller.rb:8:in `index'
+
+Rendered rescues/_trace (54.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#index (for 127.0.0.1 at 2010-09-11 14:58:22) [GET]
+  Parameters: {"admin"=>"1"}
+  [4;35;1mGift Load (0.2ms)[0m   [0mSELECT * FROM `gifts` [0m
+Rendering template within layouts/gifts
+Rendering gifts/index
+
+ActionView::TemplateError (no implicit conversion from nil to integer) on line #21 of app/views/gifts/_our_gift_ideas.html.erb:
+18:   <%= link_to 'New gift', new_gift_path %>
+19: <% end %>
+20: 
+21: <%= debugger(@params) %>
+
+    /Library/Ruby/Gems/1.8/gems/ruby-debug-0.10.3/cli/ruby-debug.rb:172:in `stop_next='
+    /Library/Ruby/Gems/1.8/gems/ruby-debug-0.10.3/cli/ruby-debug.rb:172:in `debugger'
+    app/views/gifts/_our_gift_ideas.html.erb:21
+    app/views/gifts/index.html.erb:1
+    app/controllers/gifts_controller.rb:8:in `index'
+
+Rendered rescues/_trace (119.6ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#index (for 127.0.0.1 at 2010-09-11 14:58:32) [GET]
+  Parameters: {"admin"=>"1"}
+  [4;36;1mGift Load (0.2ms)[0m   [0;1mSELECT * FROM `gifts` [0m
+Rendering template within layouts/gifts
+Rendering gifts/index
+
+ActionView::TemplateError (can't convert Array into Integer) on line #21 of app/views/gifts/_our_gift_ideas.html.erb:
+18:   <%= link_to 'New gift', new_gift_path %>
+19: <% end %>
+20: 
+21: <%= debugger(@gifts) %>
+
+    /Library/Ruby/Gems/1.8/gems/ruby-debug-0.10.3/cli/ruby-debug.rb:172:in `stop_next='
+    /Library/Ruby/Gems/1.8/gems/ruby-debug-0.10.3/cli/ruby-debug.rb:172:in `debugger'
+    app/views/gifts/_our_gift_ideas.html.erb:21
+    app/views/gifts/index.html.erb:1
+    app/controllers/gifts_controller.rb:8:in `index'
+
+Rendered rescues/_trace (53.8ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#index (for 127.0.0.1 at 2010-09-11 14:58:39) [GET]
+  Parameters: {"admin"=>"1"}
+  [4;35;1mGift Load (0.2ms)[0m   [0mSELECT * FROM `gifts` [0m
+Rendering template within layouts/gifts
+Rendering gifts/index
+
+ActionView::TemplateError (can't convert String into Integer) on line #21 of app/views/gifts/_our_gift_ideas.html.erb:
+18:   <%= link_to 'New gift', new_gift_path %>
+19: <% end %>
+20: 
+21: <%= debugger(@gifts.to_s) %>
+
+    /Library/Ruby/Gems/1.8/gems/ruby-debug-0.10.3/cli/ruby-debug.rb:172:in `stop_next='
+    /Library/Ruby/Gems/1.8/gems/ruby-debug-0.10.3/cli/ruby-debug.rb:172:in `debugger'
+    app/views/gifts/_our_gift_ideas.html.erb:21
+    app/views/gifts/index.html.erb:1
+    app/controllers/gifts_controller.rb:8:in `index'
+
+Rendered rescues/_trace (53.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#index (for 127.0.0.1 at 2010-09-11 14:58:49) [GET]
+  Parameters: {"admin"=>"1"}
+  [4;36;1mGift Load (0.2ms)[0m   [0;1mSELECT * FROM `gifts` [0m
+Rendering template within layouts/gifts
+Rendering gifts/index
+Rendered gifts/_our_gift_ideas (0.9ms)
+Rendered layouts/_web_copy (0.1ms)
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/gifts?admin=1]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#index (for 127.0.0.1 at 2010-09-11 14:58:53) [GET]
+  Parameters: {"admin"=>"1"}
+  [4;35;1mGift Load (0.2ms)[0m   [0mSELECT * FROM `gifts` [0m
+Rendering template within layouts/gifts
+Rendering gifts/index
+Rendered gifts/_our_gift_ideas (1.4ms)
+Rendered layouts/_web_copy (0.1ms)
+Completed in 71ms (View: 67, DB: 0) | 200 OK [http://localhost/gifts?admin=1]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#index (for 127.0.0.1 at 2010-09-11 14:58:58) [GET]
+  Parameters: {"admin"=>"1"}
+  [4;36;1mGift Load (0.3ms)[0m   [0;1mSELECT * FROM `gifts` [0m
+Rendering template within layouts/gifts
+Rendering gifts/index
+Rendered gifts/_our_gift_ideas (0.7ms)
+Rendered layouts/_web_copy (0.1ms)
+Completed in 7ms (View: 2, DB: 0) | 200 OK [http://localhost/gifts?admin=1]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#index (for 127.0.0.1 at 2010-09-11 14:58:59) [GET]
+  Parameters: {"admin"=>"1"}
+  [4;35;1mGift Load (0.3ms)[0m   [0mSELECT * FROM `gifts` [0m
+Rendering template within layouts/gifts
+Rendering gifts/index
+Rendered gifts/_our_gift_ideas (0.6ms)
+Rendered layouts/_web_copy (0.1ms)
+Completed in 6ms (View: 2, DB: 0) | 200 OK [http://localhost/gifts?admin=1]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#index (for 127.0.0.1 at 2010-09-11 14:59:30) [GET]
+  Parameters: {"admin"=>"1"}
+  [4;36;1mGift Load (0.2ms)[0m   [0;1mSELECT * FROM `gifts` [0m
+Rendering template within layouts/gifts
+Rendering gifts/index
+Rendered gifts/_our_gift_ideas (1.3ms)
+Rendered layouts/_web_copy (0.1ms)
+Completed in 10ms (View: 6, DB: 0) | 200 OK [http://localhost/gifts?admin=1]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#index (for 127.0.0.1 at 2010-09-11 14:59:38) [GET]
+  Parameters: {"admin"=>"1"}
+  [4;35;1mGift Load (0.3ms)[0m   [0mSELECT * FROM `gifts` [0m
+Rendering template within layouts/gifts
+Rendering gifts/index
+Rendered gifts/_our_gift_ideas (1.6ms)
+Rendered layouts/_web_copy (0.1ms)
+Completed in 11ms (View: 6, DB: 0) | 200 OK [http://localhost/gifts?admin=1]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#index (for 127.0.0.1 at 2010-09-11 15:00:17) [GET]
+  Parameters: {"admin"=>"1"}
+  [4;36;1mGift Load (0.2ms)[0m   [0;1mSELECT * FROM `gifts` [0m
+Rendering template within layouts/gifts
+Rendering gifts/index
+Rendered gifts/_our_gift_ideas (1.4ms)
+Rendered layouts/_web_copy (0.1ms)
+Completed in 10ms (View: 6, DB: 0) | 200 OK [http://localhost/gifts?admin=1]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#new (for 127.0.0.1 at 2010-09-11 15:00:19) [GET]
+  [4;35;1mGift Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `gifts`[0m
+Rendering template within layouts/gifts
+Rendering gifts/new
+Rendered layouts/_web_copy (0.1ms)
+Completed in 72ms (View: 67, DB: 1) | 200 OK [http://localhost/gifts/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#stylesheets to css (for 127.0.0.1 at 2010-09-11 15:00:19) [GET]
+  Parameters: {"id"=>"reset"}
+
+ActionController::UnknownAction (No action responded to stylesheets. Actions: create, destroy, edit, index, new, show, and update):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#stylesheets to css (for 127.0.0.1 at 2010-09-11 15:00:19) [GET]
+  Parameters: {"id"=>"text"}
+
+ActionController::UnknownAction (No action responded to stylesheets. Actions: create, destroy, edit, index, new, show, and update):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#stylesheets to css (for 127.0.0.1 at 2010-09-11 15:00:19) [GET]
+  Parameters: {"id"=>"960"}
+
+ActionController::UnknownAction (No action responded to stylesheets. Actions: create, destroy, edit, index, new, show, and update):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#new (for 127.0.0.1 at 2010-09-11 15:00:51) [GET]
+  [4;36;1mGift Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `gifts`[0m
+Rendering template within layouts/gifts
+Rendering gifts/new
+Rendered layouts/_web_copy (0.1ms)
+Completed in 16ms (View: 10, DB: 1) | 200 OK [http://localhost/gifts/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#stylesheets to css (for 127.0.0.1 at 2010-09-11 15:00:51) [GET]
+  Parameters: {"id"=>"reset"}
+
+ActionController::UnknownAction (No action responded to stylesheets. Actions: create, destroy, edit, index, new, show, and update):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#stylesheets to css (for 127.0.0.1 at 2010-09-11 15:00:51) [GET]
+  Parameters: {"id"=>"text"}
+
+ActionController::UnknownAction (No action responded to stylesheets. Actions: create, destroy, edit, index, new, show, and update):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#stylesheets to css (for 127.0.0.1 at 2010-09-11 15:00:51) [GET]
+  Parameters: {"id"=>"960"}
+
+ActionController::UnknownAction (No action responded to stylesheets. Actions: create, destroy, edit, index, new, show, and update):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#create (for 127.0.0.1 at 2010-09-11 15:00:53) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"eB3FyF+acBj6QzGA++atarK8pD9bQgebeYED+ydwHEU=", "gift"=>{"is_admin"=>"1", "description"=>"Toaster"}}
+  [4;35;1mGift Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `gifts`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mGift Create (0.2ms)[0m   [0mINSERT INTO `gifts` (`created_at`, `updated_at`, `is_admin`, `purchased_on`, `description`) VALUES('2010-09-11 05:00:53', '2010-09-11 05:00:53', 1, NULL, 'Toaster')[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3000/gifts/1
+Completed in 9ms (DB: 2) | 302 Found [http://localhost/gifts]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#show (for 127.0.0.1 at 2010-09-11 15:00:53) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mGift Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `gifts`[0m
+  [4;36;1mGift Load (0.8ms)[0m   [0;1mSELECT * FROM `gifts` WHERE (`gifts`.`id` = 1) [0m
+Rendering template within layouts/gifts
+Rendering gifts/show
+Rendered layouts/_web_copy (0.1ms)
+Completed in 78ms (View: 6, DB: 2) | 200 OK [http://localhost/gifts/1]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#stylesheets to css (for 127.0.0.1 at 2010-09-11 15:00:53) [GET]
+  Parameters: {"id"=>"reset"}
+
+ActionController::UnknownAction (No action responded to stylesheets. Actions: create, destroy, edit, index, new, show, and update):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#stylesheets to css (for 127.0.0.1 at 2010-09-11 15:00:53) [GET]
+  Parameters: {"id"=>"text"}
+
+ActionController::UnknownAction (No action responded to stylesheets. Actions: create, destroy, edit, index, new, show, and update):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#stylesheets to css (for 127.0.0.1 at 2010-09-11 15:00:53) [GET]
+  Parameters: {"id"=>"960"}
+
+ActionController::UnknownAction (No action responded to stylesheets. Actions: create, destroy, edit, index, new, show, and update):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#index (for 127.0.0.1 at 2010-09-11 15:00:55) [GET]
+  [4;35;1mGift Load (0.3ms)[0m   [0mSELECT * FROM `gifts` [0m
+Rendering template within layouts/gifts
+Rendering gifts/index
+  [4;36;1mGift Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `gifts`[0m
+Rendered gifts/_our_gift_ideas (5.2ms)
+Rendered layouts/_web_copy (0.1ms)
+Completed in 11ms (View: 6, DB: 1) | 200 OK [http://localhost/gifts]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#index (for 127.0.0.1 at 2010-09-11 15:03:40) [GET]
+
+SyntaxError (/Users/dtong/Dropbox/sandbox/wedding/app/models/gift.rb:4: syntax error, unexpected '(', expecting kEND
+  named_scope :our_gifts, :where(:is_admin => true)
+                                 ^
+/Users/dtong/Dropbox/sandbox/wedding/app/models/gift.rb:5: syntax error, unexpected '(', expecting kEND
+  named_scope :other_gifts, :where(:is_admin => false)
+                                   ^):
+  app/controllers/gifts_controller.rb:5:in `index'
+
+Rendered rescues/_trace (38.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#index (for 127.0.0.1 at 2010-09-11 15:03:58) [GET]
+  [4;35;1mSQL (0.4ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mGift Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `gifts`[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mGift Columns (0.8ms)[0m   [0;1mSHOW FIELDS FROM `gifts`[0m
+
+NoMethodError (undefined method `where' for #<Class:0x103680d18>):
+  app/models/gift.rb:4
+  app/controllers/gifts_controller.rb:5:in `index'
+
+Rendered rescues/_trace (40.3ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#index (for 127.0.0.1 at 2010-09-11 15:05:32) [GET]
+Rendering template within layouts/gifts
+Rendering gifts/index
+  [4;35;1mGift Load (0.3ms)[0m   [0mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 1) [0m
+  [4;36;1mGift Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `gifts`[0m
+  [4;35;1mGift Load (0.1ms)[0m   [0mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 0) [0m
+Rendered gifts/_our_gift_ideas (13.7ms)
+Rendered layouts/_web_copy (0.1ms)
+Completed in 22ms (View: 17, DB: 2) | 200 OK [http://localhost/gifts]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#index (for 127.0.0.1 at 2010-09-11 15:05:51) [GET]
+  Parameters: {"admin"=>"1"}
+Rendering template within layouts/gifts
+Rendering gifts/index
+  [4;36;1mGift Load (0.3ms)[0m   [0;1mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 1) [0m
+  [4;35;1mGift Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `gifts`[0m
+  [4;36;1mGift Load (0.2ms)[0m   [0;1mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 0) [0m
+Rendered gifts/_our_gift_ideas (7.7ms)
+Rendered layouts/_web_copy (0.1ms)
+Completed in 13ms (View: 8, DB: 2) | 200 OK [http://localhost/gifts?admin=1]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#new (for 127.0.0.1 at 2010-09-11 15:05:53) [GET]
+  [4;35;1mGift Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `gifts`[0m
+Rendering template within layouts/gifts
+Rendering gifts/new
+Rendered layouts/_web_copy (0.1ms)
+Completed in 12ms (View: 6, DB: 1) | 200 OK [http://localhost/gifts/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#stylesheets to css (for 127.0.0.1 at 2010-09-11 15:05:53) [GET]
+  Parameters: {"id"=>"reset"}
+
+ActionController::UnknownAction (No action responded to stylesheets. Actions: create, destroy, edit, index, new, and update):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#stylesheets to css (for 127.0.0.1 at 2010-09-11 15:05:53) [GET]
+  Parameters: {"id"=>"text"}
+
+ActionController::UnknownAction (No action responded to stylesheets. Actions: create, destroy, edit, index, new, and update):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#stylesheets to css (for 127.0.0.1 at 2010-09-11 15:05:53) [GET]
+  Parameters: {"id"=>"960"}
+
+ActionController::UnknownAction (No action responded to stylesheets. Actions: create, destroy, edit, index, new, and update):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#create (for 127.0.0.1 at 2010-09-11 15:06:00) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"eB3FyF+acBj6QzGA++atarK8pD9bQgebeYED+ydwHEU=", "gift"=>{"is_admin"=>"0", "description"=>"xBox games"}}
+  [4;36;1mGift Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `gifts`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mGift Create (0.2ms)[0m   [0;1mINSERT INTO `gifts` (`created_at`, `updated_at`, `is_admin`, `purchased_on`, `description`) VALUES('2010-09-11 05:06:00', '2010-09-11 05:06:00', 0, NULL, 'xBox games')[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/gifts/2
+Completed in 9ms (DB: 2) | 302 Found [http://localhost/gifts]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#show (for 127.0.0.1 at 2010-09-11 15:06:00) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/gifts
+Rendering gifts/show
+
+ActionView::TemplateError (undefined method `description' for nil:NilClass) on line #3 of app/views/gifts/show.html.erb:
+1: <p>
+2:   <b>Description:</b>
+3:   <%=h @gift.description %>
+4: </p>
+5: 
+6: <p>
+
+    app/views/gifts/show.html.erb:3
+
+Rendered rescues/_trace (43.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#show (for 127.0.0.1 at 2010-09-11 15:06:52) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/gifts
+Rendering gifts/show
+
+ActionView::TemplateError (undefined method `description' for nil:NilClass) on line #3 of app/views/gifts/show.html.erb:
+1: <p>
+2:   <b>Description:</b>
+3:   <%=h @gift.description %>
+4: </p>
+5: 
+6: <p>
+
+    app/views/gifts/show.html.erb:3
+
+Rendered rescues/_trace (41.8ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#create (for 127.0.0.1 at 2010-09-11 15:06:55) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"eB3FyF+acBj6QzGA++atarK8pD9bQgebeYED+ydwHEU=", "gift"=>{"is_admin"=>"0", "description"=>"xBox games"}}
+  [4;36;1mGift Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `gifts`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mGift Create (0.2ms)[0m   [0;1mINSERT INTO `gifts` (`created_at`, `updated_at`, `is_admin`, `purchased_on`, `description`) VALUES('2010-09-11 05:06:55', '2010-09-11 05:06:55', 0, NULL, 'xBox games')[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/gifts
+Completed in 9ms (DB: 2) | 302 Found [http://localhost/gifts]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#index (for 127.0.0.1 at 2010-09-11 15:06:55) [GET]
+Rendering template within layouts/gifts
+Rendering gifts/index
+  [4;36;1mGift Load (0.3ms)[0m   [0;1mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 1) [0m
+  [4;35;1mGift Columns (0.8ms)[0m   [0mSHOW FIELDS FROM `gifts`[0m
+  [4;36;1mGift Load (0.1ms)[0m   [0;1mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 0) [0m
+Rendered gifts/_our_gift_ideas (10.8ms)
+Rendered layouts/_web_copy (0.1ms)
+Completed in 16ms (View: 11, DB: 1) | 200 OK [http://localhost/gifts]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#destroy (for 127.0.0.1 at 2010-09-11 15:06:59) [DELETE]
+  Parameters: {"authenticity_token"=>"eB3FyF+acBj6QzGA++atarK8pD9bQgebeYED+ydwHEU=", "id"=>"3"}
+  [4;35;1mGift Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `gifts`[0m
+  [4;36;1mGift Load (0.7ms)[0m   [0;1mSELECT * FROM `gifts` WHERE (`gifts`.`id` = 3) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mGift Destroy (0.4ms)[0m   [0;1mDELETE FROM `gifts` WHERE `id` = 3[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/gifts
+Completed in 12ms (DB: 3) | 302 Found [http://localhost/gifts/3]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#index (for 127.0.0.1 at 2010-09-11 15:06:59) [GET]
+Rendering template within layouts/gifts
+Rendering gifts/index
+  [4;36;1mGift Load (0.3ms)[0m   [0;1mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 1) [0m
+  [4;35;1mGift Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `gifts`[0m
+  [4;36;1mGift Load (0.3ms)[0m   [0;1mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 0) [0m
+Rendered gifts/_our_gift_ideas (75.8ms)
+Rendered layouts/_web_copy (0.1ms)
+Completed in 81ms (View: 76, DB: 2) | 200 OK [http://localhost/gifts]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#index (for 127.0.0.1 at 2010-09-11 15:09:18) [GET]
+Rendering template within layouts/gifts
+Rendering gifts/index
+  [4;35;1mGift Load (0.3ms)[0m   [0mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 1) [0m
+  [4;36;1mGift Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `gifts`[0m
+Rendered gifts/_our_gifts (7.3ms)
+  [4;35;1mGift Load (0.2ms)[0m   [0mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 0) [0m
+Rendered gifts/_other_gifts (5.2ms)
+Rendered layouts/_web_copy (0.1ms)
+Completed in 27ms (View: 22, DB: 2) | 200 OK [http://localhost/gifts]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#index (for 127.0.0.1 at 2010-09-11 15:09:58) [GET]
+Rendering template within layouts/gifts
+Rendering gifts/index
+  [4;36;1mGift Load (0.3ms)[0m   [0;1mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 1) [0m
+  [4;35;1mGift Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `gifts`[0m
+Rendered gifts/_our_gifts (6.4ms)
+  [4;36;1mGift Load (0.2ms)[0m   [0;1mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 0) [0m
+Rendered gifts/_other_gifts (3.3ms)
+Rendered layouts/_web_copy (0.1ms)
+Completed in 19ms (View: 14, DB: 2) | 200 OK [http://localhost/gifts]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#index (for 127.0.0.1 at 2010-09-11 15:10:12) [GET]
+Rendering template within layouts/gifts
+Rendering gifts/index
+  [4;35;1mGift Load (0.3ms)[0m   [0mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 1) [0m
+  [4;36;1mGift Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `gifts`[0m
+Rendered gifts/_our_gifts (6.6ms)
+  [4;35;1mGift Load (0.2ms)[0m   [0mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 0) [0m
+Rendered gifts/_other_gifts (3.9ms)
+Rendered layouts/_web_copy (0.1ms)
+Completed in 22ms (View: 16, DB: 2) | 200 OK [http://localhost/gifts]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#index (for 127.0.0.1 at 2010-09-11 15:10:50) [GET]
+Rendering template within layouts/gifts
+Rendering gifts/index
+  [4;36;1mGift Load (0.3ms)[0m   [0;1mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 1) [0m
+  [4;35;1mGift Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `gifts`[0m
+Rendered gifts/_our_gifts (6.1ms)
+  [4;36;1mGift Load (0.2ms)[0m   [0;1mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 0) [0m
+Rendered gifts/_other_gifts (3.0ms)
+Rendered layouts/_web_copy (0.1ms)
+Completed in 14ms (View: 9, DB: 2) | 200 OK [http://localhost/gifts]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#index (for 127.0.0.1 at 2010-09-11 15:10:59) [GET]
+  Parameters: {"admin"=>"1"}
+Rendering template within layouts/gifts
+Rendering gifts/index
+  [4;35;1mGift Load (0.3ms)[0m   [0mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 1) [0m
+  [4;36;1mGift Columns (1.4ms)[0m   [0;1mSHOW FIELDS FROM `gifts`[0m
+Rendered gifts/_our_gifts (6.8ms)
+  [4;35;1mGift Load (0.2ms)[0m   [0mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 0) [0m
+Rendered gifts/_other_gifts (3.1ms)
+Rendered layouts/_web_copy (0.1ms)
+Completed in 15ms (View: 10, DB: 2) | 200 OK [http://localhost/gifts?admin=1]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#new (for 127.0.0.1 at 2010-09-11 15:11:07) [GET]
+  [4;36;1mGift Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `gifts`[0m
+Rendering template within layouts/gifts
+Rendering gifts/new
+Rendered layouts/_web_copy (0.1ms)
+Completed in 15ms (View: 10, DB: 1) | 200 OK [http://localhost/gifts/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#stylesheets to css (for 127.0.0.1 at 2010-09-11 15:11:07) [GET]
+  Parameters: {"id"=>"reset"}
+
+ActionController::UnknownAction (No action responded to stylesheets. Actions: create, destroy, edit, index, new, and update):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#stylesheets to css (for 127.0.0.1 at 2010-09-11 15:11:07) [GET]
+  Parameters: {"id"=>"text"}
+
+ActionController::UnknownAction (No action responded to stylesheets. Actions: create, destroy, edit, index, new, and update):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#stylesheets to css (for 127.0.0.1 at 2010-09-11 15:11:07) [GET]
+  Parameters: {"id"=>"960"}
+
+ActionController::UnknownAction (No action responded to stylesheets. Actions: create, destroy, edit, index, new, and update):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#new (for 127.0.0.1 at 2010-09-11 15:11:37) [GET]
+  [4;35;1mGift Columns (1.4ms)[0m   [0mSHOW FIELDS FROM `gifts`[0m
+Rendering template within layouts/gifts
+Rendering gifts/new
+Completed in 15ms (View: 9, DB: 2) | 200 OK [http://localhost/gifts/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#stylesheets to css (for 127.0.0.1 at 2010-09-11 15:11:37) [GET]
+  Parameters: {"id"=>"reset"}
+
+ActionController::UnknownAction (No action responded to stylesheets. Actions: create, destroy, edit, index, new, and update):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#stylesheets to css (for 127.0.0.1 at 2010-09-11 15:11:37) [GET]
+  Parameters: {"id"=>"text"}
+
+ActionController::UnknownAction (No action responded to stylesheets. Actions: create, destroy, edit, index, new, and update):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#stylesheets to css (for 127.0.0.1 at 2010-09-11 15:11:37) [GET]
+  Parameters: {"id"=>"960"}
+
+ActionController::UnknownAction (No action responded to stylesheets. Actions: create, destroy, edit, index, new, and update):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#create (for 127.0.0.1 at 2010-09-11 15:11:43) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"eB3FyF+acBj6QzGA++atarK8pD9bQgebeYED+ydwHEU=", "gift"=>{"description"=>"Fan"}}
+  [4;36;1mGift Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `gifts`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mGift Create (0.2ms)[0m   [0;1mINSERT INTO `gifts` (`created_at`, `updated_at`, `is_admin`, `purchased_on`, `description`) VALUES('2010-09-11 05:11:43', '2010-09-11 05:11:43', NULL, NULL, 'Fan')[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/gifts
+Completed in 9ms (DB: 2) | 302 Found [http://localhost/gifts]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#index (for 127.0.0.1 at 2010-09-11 15:11:43) [GET]
+Rendering template within layouts/gifts
+Rendering gifts/index
+Rendered gifts/_web_copy (0.3ms)
+  [4;36;1mGift Load (0.3ms)[0m   [0;1mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 1) [0m
+  [4;35;1mGift Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `gifts`[0m
+Rendered gifts/_our_gifts (5.9ms)
+  [4;36;1mGift Load (0.2ms)[0m   [0;1mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 0) [0m
+Rendered gifts/_other_gifts (2.9ms)
+Completed in 20ms (View: 15, DB: 1) | 200 OK [http://localhost/gifts]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#index (for 127.0.0.1 at 2010-09-11 15:11:47) [GET]
+Rendering template within layouts/gifts
+Rendering gifts/index
+Rendered gifts/_web_copy (0.1ms)
+  [4;35;1mGift Load (0.3ms)[0m   [0mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 1) [0m
+  [4;36;1mGift Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `gifts`[0m
+Rendered gifts/_our_gifts (6.2ms)
+  [4;35;1mGift Load (0.2ms)[0m   [0mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 0) [0m
+Rendered gifts/_other_gifts (2.9ms)
+Completed in 14ms (View: 9, DB: 2) | 200 OK [http://localhost/gifts]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (41.8ms)[0m   [0mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSHOW KEYS FROM `schema_migrations`[0m
+  [4;35;1mSQL (100.6ms)[0m   [0mCREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateGifts (20100911042740)
+  [4;36;1mSQL (61.2ms)[0m   [0;1mCREATE TABLE `gifts` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `description` varchar(255), `is_admin` tinyint(1) DEFAULT 0, `boolean` tinyint(1) DEFAULT 0, `purchased_on` date, `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20100911042740')[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (1.3ms)[0m   [0mSHOW FIELDS FROM `gifts`[0m
+  [4;36;1mSQL (1.9ms)[0m   [0;1mdescribe `gifts`[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mSHOW KEYS FROM `gifts`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#index (for 127.0.0.1 at 2010-09-11 15:13:16) [GET]
+Rendering template within layouts/gifts
+Rendering gifts/index
+Rendered gifts/_web_copy (0.1ms)
+  [4;36;1mGift Load (0.3ms)[0m   [0;1mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 1) [0m
+Rendered gifts/_our_gifts (1.3ms)
+  [4;35;1mGift Load (0.1ms)[0m   [0mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 0) [0m
+Rendered gifts/_other_gifts (0.9ms)
+Completed in 7ms (View: 3, DB: 1) | 200 OK [http://localhost/gifts]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#index (for 127.0.0.1 at 2010-09-11 15:13:19) [GET]
+  Parameters: {"admin"=>"1"}
+Rendering template within layouts/gifts
+Rendering gifts/index
+Rendered gifts/_web_copy (0.1ms)
+  [4;36;1mGift Load (0.3ms)[0m   [0;1mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 1) [0m
+Rendered gifts/_our_gifts (1.3ms)
+  [4;35;1mGift Load (0.1ms)[0m   [0mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 0) [0m
+Rendered gifts/_other_gifts (0.9ms)
+Completed in 7ms (View: 3, DB: 1) | 200 OK [http://localhost/gifts?admin=1]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#index (for 127.0.0.1 at 2010-09-11 15:15:54) [GET]
+  Parameters: {"admin"=>"1"}
+Rendering template within layouts/gifts
+Rendering gifts/index
+Rendered gifts/_web_copy (0.3ms)
+  [4;36;1mGift Load (0.3ms)[0m   [0;1mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 1) [0m
+Rendered gifts/_our_gifts (7.6ms)
+  [4;35;1mGift Load (0.3ms)[0m   [0mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 0) [0m
+Rendered gifts/_other_gifts (53.9ms)
+Completed in 89ms (View: 85, DB: 1) | 200 OK [http://localhost/gifts?admin=1]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#new (for 127.0.0.1 at 2010-09-11 15:15:59) [GET]
+  [4;36;1mGift Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `gifts`[0m
+Rendering template within layouts/gifts
+Rendering gifts/new
+Completed in 16ms (View: 10, DB: 1) | 200 OK [http://localhost/gifts/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#stylesheets to css (for 127.0.0.1 at 2010-09-11 15:15:59) [GET]
+  Parameters: {"id"=>"reset"}
+
+ActionController::UnknownAction (No action responded to stylesheets. Actions: create, destroy, edit, index, new, unpurchase, and update):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#stylesheets to css (for 127.0.0.1 at 2010-09-11 15:15:59) [GET]
+  Parameters: {"id"=>"text"}
+
+ActionController::UnknownAction (No action responded to stylesheets. Actions: create, destroy, edit, index, new, unpurchase, and update):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#stylesheets to css (for 127.0.0.1 at 2010-09-11 15:15:59) [GET]
+  Parameters: {"id"=>"960"}
+
+ActionController::UnknownAction (No action responded to stylesheets. Actions: create, destroy, edit, index, new, unpurchase, and update):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#create (for 127.0.0.1 at 2010-09-11 15:16:02) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"eB3FyF+acBj6QzGA++atarK8pD9bQgebeYED+ydwHEU=", "gift"=>{"description"=>"Toaster"}}
+  [4;35;1mGift Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `gifts`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mGift Create (0.2ms)[0m   [0mINSERT INTO `gifts` (`boolean`, `created_at`, `updated_at`, `is_admin`, `purchased_on`, `description`) VALUES(0, '2010-09-11 05:16:02', '2010-09-11 05:16:02', 0, NULL, 'Toaster')[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3000/gifts
+Completed in 9ms (DB: 2) | 302 Found [http://localhost/gifts]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#index (for 127.0.0.1 at 2010-09-11 15:16:02) [GET]
+Rendering template within layouts/gifts
+Rendering gifts/index
+Rendered gifts/_web_copy (0.1ms)
+  [4;35;1mGift Load (0.2ms)[0m   [0mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 1) [0m
+Rendered gifts/_our_gifts (1.3ms)
+  [4;36;1mGift Load (0.1ms)[0m   [0;1mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 0) [0m
+  [4;35;1mGift Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `gifts`[0m
+Rendered gifts/_other_gifts (6.0ms)
+Completed in 12ms (View: 8, DB: 2) | 200 OK [http://localhost/gifts]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#index (for 127.0.0.1 at 2010-09-11 15:16:11) [GET]
+  Parameters: {"admin"=>"1"}
+Rendering template within layouts/gifts
+Rendering gifts/index
+Rendered gifts/_web_copy (0.1ms)
+  [4;36;1mGift Load (0.3ms)[0m   [0;1mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 1) [0m
+Rendered gifts/_our_gifts (1.4ms)
+  [4;35;1mGift Load (0.1ms)[0m   [0mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 0) [0m
+  [4;36;1mGift Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `gifts`[0m
+Rendered gifts/_other_gifts (6.0ms)
+Completed in 13ms (View: 8, DB: 2) | 200 OK [http://localhost/gifts?admin=1]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#new (for 127.0.0.1 at 2010-09-11 15:16:12) [GET]
+  [4;35;1mGift Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `gifts`[0m
+Rendering template within layouts/gifts
+Rendering gifts/new
+Completed in 11ms (View: 6, DB: 1) | 200 OK [http://localhost/gifts/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#stylesheets to css (for 127.0.0.1 at 2010-09-11 15:16:12) [GET]
+  Parameters: {"id"=>"reset"}
+
+ActionController::UnknownAction (No action responded to stylesheets. Actions: create, destroy, edit, index, new, unpurchase, and update):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#stylesheets to css (for 127.0.0.1 at 2010-09-11 15:16:12) [GET]
+  Parameters: {"id"=>"text"}
+
+ActionController::UnknownAction (No action responded to stylesheets. Actions: create, destroy, edit, index, new, unpurchase, and update):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#stylesheets to css (for 127.0.0.1 at 2010-09-11 15:16:12) [GET]
+  Parameters: {"id"=>"960"}
+
+ActionController::UnknownAction (No action responded to stylesheets. Actions: create, destroy, edit, index, new, unpurchase, and update):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#create (for 127.0.0.1 at 2010-09-11 15:16:14) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"eB3FyF+acBj6QzGA++atarK8pD9bQgebeYED+ydwHEU=", "gift"=>{"description"=>"xbox"}}
+  [4;36;1mGift Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `gifts`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mGift Create (0.2ms)[0m   [0;1mINSERT INTO `gifts` (`boolean`, `created_at`, `updated_at`, `is_admin`, `purchased_on`, `description`) VALUES(0, '2010-09-11 05:16:14', '2010-09-11 05:16:14', 0, NULL, 'xbox')[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/gifts
+Completed in 9ms (DB: 2) | 302 Found [http://localhost/gifts]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#index (for 127.0.0.1 at 2010-09-11 15:16:14) [GET]
+Rendering template within layouts/gifts
+Rendering gifts/index
+Rendered gifts/_web_copy (0.1ms)
+  [4;36;1mGift Load (0.3ms)[0m   [0;1mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 1) [0m
+Rendered gifts/_our_gifts (1.3ms)
+  [4;35;1mGift Load (0.1ms)[0m   [0mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 0) [0m
+  [4;36;1mGift Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `gifts`[0m
+Rendered gifts/_other_gifts (7.7ms)
+Completed in 14ms (View: 9, DB: 1) | 200 OK [http://localhost/gifts]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#index (for 127.0.0.1 at 2010-09-11 15:16:42) [GET]
+  Parameters: {"admin"=>"1"}
+Rendering template within layouts/gifts
+Rendering gifts/index
+Rendered gifts/_web_copy (0.1ms)
+  [4;35;1mGift Load (0.3ms)[0m   [0mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 1) [0m
+Rendered gifts/_our_gifts (2.7ms)
+  [4;36;1mGift Load (0.1ms)[0m   [0;1mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 0) [0m
+  [4;35;1mGift Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `gifts`[0m
+Rendered gifts/_other_gifts (7.6ms)
+Completed in 19ms (View: 14, DB: 2) | 200 OK [http://localhost/gifts?admin=1]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#new (for 127.0.0.1 at 2010-09-11 15:16:45) [GET]
+  Parameters: {"is_admin"=>"true"}
+  [4;36;1mGift Columns (1.3ms)[0m   [0;1mSHOW FIELDS FROM `gifts`[0m
+Rendering template within layouts/gifts
+Rendering gifts/new
+Completed in 69ms (View: 6, DB: 1) | 200 OK [http://localhost/gifts/new?is_admin=true]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#stylesheets to css (for 127.0.0.1 at 2010-09-11 15:16:45) [GET]
+  Parameters: {"id"=>"reset"}
+
+ActionController::UnknownAction (No action responded to stylesheets. Actions: create, destroy, edit, index, new, unpurchase, and update):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#stylesheets to css (for 127.0.0.1 at 2010-09-11 15:16:45) [GET]
+  Parameters: {"id"=>"text"}
+
+ActionController::UnknownAction (No action responded to stylesheets. Actions: create, destroy, edit, index, new, unpurchase, and update):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#stylesheets to css (for 127.0.0.1 at 2010-09-11 15:16:45) [GET]
+  Parameters: {"id"=>"960"}
+
+ActionController::UnknownAction (No action responded to stylesheets. Actions: create, destroy, edit, index, new, unpurchase, and update):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#create (for 127.0.0.1 at 2010-09-11 15:16:55) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"eB3FyF+acBj6QzGA++atarK8pD9bQgebeYED+ydwHEU=", "gift"=>{"description"=>"abc"}}
+  [4;35;1mGift Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `gifts`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mGift Create (0.2ms)[0m   [0mINSERT INTO `gifts` (`boolean`, `created_at`, `updated_at`, `is_admin`, `purchased_on`, `description`) VALUES(0, '2010-09-11 05:16:55', '2010-09-11 05:16:55', 0, NULL, 'abc')[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3000/gifts
+Completed in 9ms (DB: 2) | 302 Found [http://localhost/gifts]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#index (for 127.0.0.1 at 2010-09-11 15:16:55) [GET]
+Rendering template within layouts/gifts
+Rendering gifts/index
+Rendered gifts/_web_copy (0.1ms)
+  [4;35;1mGift Load (0.3ms)[0m   [0mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 1) [0m
+Rendered gifts/_our_gifts (1.2ms)
+  [4;36;1mGift Load (0.1ms)[0m   [0;1mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 0) [0m
+  [4;35;1mGift Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `gifts`[0m
+Rendered gifts/_other_gifts (9.5ms)
+Completed in 16ms (View: 11, DB: 1) | 200 OK [http://localhost/gifts]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#index (for 127.0.0.1 at 2010-09-11 15:18:32) [GET]
+Rendering template within layouts/gifts
+Rendering gifts/index
+Rendered gifts/_web_copy (0.1ms)
+  [4;36;1mGift Load (0.3ms)[0m   [0;1mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 1) [0m
+Rendered gifts/_our_gifts (2.1ms)
+  [4;35;1mGift Load (0.1ms)[0m   [0mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 0) [0m
+  [4;36;1mGift Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `gifts`[0m
+Rendered gifts/_other_gifts (9.7ms)
+Completed in 20ms (View: 15, DB: 2) | 200 OK [http://localhost/gifts]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#index (for 127.0.0.1 at 2010-09-11 15:18:33) [GET]
+  Parameters: {"admin"=>"1"}
+Rendering template within layouts/gifts
+Rendering gifts/index
+Rendered gifts/_web_copy (0.1ms)
+  [4;35;1mGift Load (0.3ms)[0m   [0mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 1) [0m
+Rendered gifts/_our_gifts (2.0ms)
+  [4;36;1mGift Load (0.1ms)[0m   [0;1mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 0) [0m
+  [4;35;1mGift Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `gifts`[0m
+Rendered gifts/_other_gifts (9.7ms)
+Completed in 75ms (View: 70, DB: 2) | 200 OK [http://localhost/gifts?admin=1]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#new (for 127.0.0.1 at 2010-09-11 15:18:35) [GET]
+  Parameters: {"is_admin"=>"true"}
+  [4;36;1mGift Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `gifts`[0m
+Rendering template within layouts/gifts
+Rendering gifts/new
+Completed in 11ms (View: 5, DB: 1) | 200 OK [http://localhost/gifts/new?is_admin=true]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#stylesheets to css (for 127.0.0.1 at 2010-09-11 15:18:35) [GET]
+  Parameters: {"id"=>"reset"}
+
+ActionController::UnknownAction (No action responded to stylesheets. Actions: create, destroy, edit, index, new, unpurchase, and update):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#stylesheets to css (for 127.0.0.1 at 2010-09-11 15:18:35) [GET]
+  Parameters: {"id"=>"text"}
+
+ActionController::UnknownAction (No action responded to stylesheets. Actions: create, destroy, edit, index, new, unpurchase, and update):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#stylesheets to css (for 127.0.0.1 at 2010-09-11 15:18:35) [GET]
+  Parameters: {"id"=>"960"}
+
+ActionController::UnknownAction (No action responded to stylesheets. Actions: create, destroy, edit, index, new, unpurchase, and update):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#create (for 127.0.0.1 at 2010-09-11 15:18:36) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"eB3FyF+acBj6QzGA++atarK8pD9bQgebeYED+ydwHEU=", "gift"=>{"description"=>"dasda"}}
+  [4;35;1mGift Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `gifts`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mGift Create (0.2ms)[0m   [0mINSERT INTO `gifts` (`boolean`, `created_at`, `updated_at`, `is_admin`, `purchased_on`, `description`) VALUES(0, '2010-09-11 05:18:36', '2010-09-11 05:18:36', 0, NULL, 'dasda')[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3000/gifts
+Completed in 9ms (DB: 2) | 302 Found [http://localhost/gifts]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#index (for 127.0.0.1 at 2010-09-11 15:18:36) [GET]
+Rendering template within layouts/gifts
+Rendering gifts/index
+Rendered gifts/_web_copy (0.1ms)
+  [4;35;1mGift Load (0.2ms)[0m   [0mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 1) [0m
+Rendered gifts/_our_gifts (1.3ms)
+  [4;36;1mGift Load (0.1ms)[0m   [0;1mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 0) [0m
+  [4;35;1mGift Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `gifts`[0m
+Rendered gifts/_other_gifts (11.7ms)
+Completed in 18ms (View: 13, DB: 1) | 200 OK [http://localhost/gifts]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#index (for 127.0.0.1 at 2010-09-11 15:18:45) [GET]
+  Parameters: {"admin"=>"1"}
+Rendering template within layouts/gifts
+Rendering gifts/index
+Rendered gifts/_web_copy (0.1ms)
+  [4;36;1mGift Load (0.3ms)[0m   [0;1mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 1) [0m
+Rendered gifts/_our_gifts (1.8ms)
+  [4;35;1mGift Load (0.1ms)[0m   [0mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 0) [0m
+  [4;36;1mGift Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `gifts`[0m
+Rendered gifts/_other_gifts (69.0ms)
+Completed in 76ms (View: 71, DB: 2) | 200 OK [http://localhost/gifts?admin=1]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#new (for 127.0.0.1 at 2010-09-11 15:18:46) [GET]
+  Parameters: {"is_admin"=>"true"}
+  [4;35;1mGift Columns (1.7ms)[0m   [0mSHOW FIELDS FROM `gifts`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (47.9ms)[0m   [0mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSHOW KEYS FROM `schema_migrations`[0m
+  [4;35;1mSQL (111.1ms)[0m   [0mCREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateGifts (20100911042740)
+  [4;36;1mSQL (69.7ms)[0m   [0;1mCREATE TABLE `gifts` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `description` varchar(255), `is_admin` tinyint(1) DEFAULT 0, `purchased_on` date, `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20100911042740')[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (1.3ms)[0m   [0mSHOW FIELDS FROM `gifts`[0m
+  [4;36;1mSQL (1.3ms)[0m   [0;1mdescribe `gifts`[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSHOW KEYS FROM `gifts`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#index (for 127.0.0.1 at 2010-09-11 15:20:19) [GET]
+  Parameters: {"admin"=>"1"}
+Rendering template within layouts/gifts
+Rendering gifts/index
+Rendered gifts/_web_copy (0.4ms)
+  [4;36;1mGift Load (0.3ms)[0m   [0;1mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 1) [0m
+Rendered gifts/_our_gifts (8.0ms)
+  [4;35;1mGift Load (0.3ms)[0m   [0mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 0) [0m
+Rendered gifts/_other_gifts (55.6ms)
+Completed in 91ms (View: 86, DB: 1) | 200 OK [http://localhost/gifts?admin=1]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#new (for 127.0.0.1 at 2010-09-11 15:20:21) [GET]
+  Parameters: {"is_admin"=>"true"}
+  [4;36;1mGift Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `gifts`[0m
+Rendering template within layouts/gifts
+Rendering gifts/new
+Completed in 14157ms (View: 11, DB: 1) | 200 OK [http://localhost/gifts/new?is_admin=true]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#stylesheets to css (for 127.0.0.1 at 2010-09-11 15:20:35) [GET]
+  Parameters: {"id"=>"reset"}
+
+ActionController::UnknownAction (No action responded to stylesheets. Actions: create, destroy, edit, index, new, unpurchase, and update):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#stylesheets to css (for 127.0.0.1 at 2010-09-11 15:20:35) [GET]
+  Parameters: {"id"=>"text"}
+
+ActionController::UnknownAction (No action responded to stylesheets. Actions: create, destroy, edit, index, new, unpurchase, and update):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#stylesheets to css (for 127.0.0.1 at 2010-09-11 15:20:35) [GET]
+  Parameters: {"id"=>"960"}
+
+ActionController::UnknownAction (No action responded to stylesheets. Actions: create, destroy, edit, index, new, unpurchase, and update):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#create (for 127.0.0.1 at 2010-09-11 15:20:43) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"eB3FyF+acBj6QzGA++atarK8pD9bQgebeYED+ydwHEU=", "gift"=>{"description"=>"abc"}}
+  [4;35;1mGift Columns (1.4ms)[0m   [0mSHOW FIELDS FROM `gifts`[0m
+  [4;36;1mSQL (0.9ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mGift Create (0.2ms)[0m   [0mINSERT INTO `gifts` (`created_at`, `updated_at`, `is_admin`, `purchased_on`, `description`) VALUES('2010-09-11 05:22:05', '2010-09-11 05:22:05', 0, NULL, 'abc')[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3000/gifts
+Completed in 81867ms (DB: 3) | 302 Found [http://localhost/gifts]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#new (for 127.0.0.1 at 2010-09-11 15:22:05) [GET]
+  Parameters: {"is_admin"=>"true"}
+  [4;35;1mGift Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `gifts`[0m
+Rendering template within layouts/gifts
+Rendering gifts/new
+Completed in 19ms (View: 13, DB: 1) | 200 OK [http://localhost/gifts/new?is_admin=true]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#stylesheets to css (for 127.0.0.1 at 2010-09-11 15:22:05) [GET]
+  Parameters: {"id"=>"reset"}
+
+ActionController::UnknownAction (No action responded to stylesheets. Actions: create, destroy, edit, index, new, unpurchase, and update):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#stylesheets to css (for 127.0.0.1 at 2010-09-11 15:22:05) [GET]
+  Parameters: {"id"=>"text"}
+
+ActionController::UnknownAction (No action responded to stylesheets. Actions: create, destroy, edit, index, new, unpurchase, and update):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#stylesheets to css (for 127.0.0.1 at 2010-09-11 15:22:05) [GET]
+  Parameters: {"id"=>"960"}
+
+ActionController::UnknownAction (No action responded to stylesheets. Actions: create, destroy, edit, index, new, unpurchase, and update):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#create (for 127.0.0.1 at 2010-09-11 15:22:08) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"eB3FyF+acBj6QzGA++atarK8pD9bQgebeYED+ydwHEU=", "gift"=>{"is_admin"=>"1", "description"=>"abc"}}
+  [4;36;1mGift Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `gifts`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mGift Create (0.2ms)[0m   [0;1mINSERT INTO `gifts` (`created_at`, `updated_at`, `is_admin`, `purchased_on`, `description`) VALUES('2010-09-11 05:22:08', '2010-09-11 05:22:08', 1, NULL, 'abc')[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/gifts
+Completed in 9ms (DB: 2) | 302 Found [http://localhost/gifts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#index (for 127.0.0.1 at 2010-09-11 15:22:08) [GET]
+Rendering template within layouts/gifts
+Rendering gifts/index
+Rendered gifts/_web_copy (0.1ms)
+  [4;36;1mGift Load (0.3ms)[0m   [0;1mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 1) [0m
+  [4;35;1mGift Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `gifts`[0m
+Rendered gifts/_our_gifts (5.9ms)
+  [4;36;1mGift Load (0.2ms)[0m   [0;1mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 0) [0m
+Rendered gifts/_other_gifts (3.1ms)
+Completed in 14ms (View: 9, DB: 2) | 200 OK [http://localhost/gifts]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#index (for 127.0.0.1 at 2010-09-11 15:22:11) [GET]
+  Parameters: {"admin"=>"1"}
+Rendering template within layouts/gifts
+Rendering gifts/index
+Rendered gifts/_web_copy (0.1ms)
+  [4;35;1mGift Load (0.3ms)[0m   [0mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 1) [0m
+  [4;36;1mGift Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `gifts`[0m
+Rendered gifts/_our_gifts (6.2ms)
+  [4;35;1mGift Load (0.2ms)[0m   [0mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 0) [0m
+Rendered gifts/_other_gifts (2.9ms)
+Completed in 14ms (View: 9, DB: 2) | 200 OK [http://localhost/gifts?admin=1]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#new (for 127.0.0.1 at 2010-09-11 15:22:12) [GET]
+  Parameters: {"is_admin"=>"true"}
+  [4;36;1mGift Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `gifts`[0m
+Rendering template within layouts/gifts
+Rendering gifts/new
+Completed in 12ms (View: 6, DB: 1) | 200 OK [http://localhost/gifts/new?is_admin=true]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#stylesheets to css (for 127.0.0.1 at 2010-09-11 15:22:12) [GET]
+  Parameters: {"id"=>"reset"}
+
+ActionController::UnknownAction (No action responded to stylesheets. Actions: create, destroy, edit, index, new, unpurchase, and update):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#stylesheets to css (for 127.0.0.1 at 2010-09-11 15:22:12) [GET]
+  Parameters: {"id"=>"text"}
+
+ActionController::UnknownAction (No action responded to stylesheets. Actions: create, destroy, edit, index, new, unpurchase, and update):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#stylesheets to css (for 127.0.0.1 at 2010-09-11 15:22:12) [GET]
+  Parameters: {"id"=>"960"}
+
+ActionController::UnknownAction (No action responded to stylesheets. Actions: create, destroy, edit, index, new, unpurchase, and update):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#new (for 127.0.0.1 at 2010-09-11 15:22:19) [GET]
+  [4;35;1mGift Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `gifts`[0m
+Rendering template within layouts/gifts
+Rendering gifts/new
+Completed in 11ms (View: 6, DB: 1) | 200 OK [http://localhost/gifts/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#stylesheets to css (for 127.0.0.1 at 2010-09-11 15:22:19) [GET]
+  Parameters: {"id"=>"reset"}
+
+ActionController::UnknownAction (No action responded to stylesheets. Actions: create, destroy, edit, index, new, unpurchase, and update):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#stylesheets to css (for 127.0.0.1 at 2010-09-11 15:22:19) [GET]
+  Parameters: {"id"=>"text"}
+
+ActionController::UnknownAction (No action responded to stylesheets. Actions: create, destroy, edit, index, new, unpurchase, and update):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#stylesheets to css (for 127.0.0.1 at 2010-09-11 15:22:19) [GET]
+  Parameters: {"id"=>"960"}
+
+ActionController::UnknownAction (No action responded to stylesheets. Actions: create, destroy, edit, index, new, unpurchase, and update):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#create (for 127.0.0.1 at 2010-09-11 15:22:22) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"eB3FyF+acBj6QzGA++atarK8pD9bQgebeYED+ydwHEU=", "gift"=>{"description"=>"dasda"}}
+  [4;36;1mGift Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `gifts`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mGift Create (0.2ms)[0m   [0;1mINSERT INTO `gifts` (`created_at`, `updated_at`, `is_admin`, `purchased_on`, `description`) VALUES('2010-09-11 05:22:22', '2010-09-11 05:22:22', 0, NULL, 'dasda')[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/gifts
+Completed in 9ms (DB: 2) | 302 Found [http://localhost/gifts]
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#index (for 127.0.0.1 at 2010-09-11 15:22:22) [GET]
+Rendering template within layouts/gifts
+Rendering gifts/index
+Rendered gifts/_web_copy (0.1ms)
+  [4;36;1mGift Load (0.3ms)[0m   [0;1mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 1) [0m
+  [4;35;1mGift Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `gifts`[0m
+Rendered gifts/_our_gifts (6.0ms)
+  [4;36;1mGift Load (0.2ms)[0m   [0;1mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 0) [0m
+Rendered gifts/_other_gifts (5.0ms)
+Completed in 16ms (View: 11, DB: 2) | 200 OK [http://localhost/gifts]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#2 (for 127.0.0.1 at 2010-09-11 15:22:48) [POST]
+  Parameters: {"authenticity_token"=>"eB3FyF+acBj6QzGA++atarK8pD9bQgebeYED+ydwHEU="}
+
+ActionController::UnknownAction (No action responded to 2. Actions: create, destroy, edit, index, new, unpurchase, and update):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#index (for 127.0.0.1 at 2010-09-11 15:30:05) [GET]
+Rendering template within layouts/gifts
+Rendering gifts/index
+Rendered gifts/_web_copy (0.4ms)
+  [4;36;1mGift Load (0.3ms)[0m   [0;1mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 1) [0m
+  [4;35;1mGift Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `gifts`[0m
+Rendered gifts/_our_gifts (13.4ms)
+  [4;36;1mGift Load (0.3ms)[0m   [0;1mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 0) [0m
+Rendered gifts/_other_gifts (6.0ms)
+Completed in 98ms (View: 92, DB: 2) | 200 OK [http://localhost/gifts]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#2 (for 127.0.0.1 at 2010-09-11 15:30:08) [POST]
+  Parameters: {"authenticity_token"=>"eB3FyF+acBj6QzGA++atarK8pD9bQgebeYED+ydwHEU="}
+
+ActionController::UnknownAction (No action responded to 2. Actions: create, destroy, edit, index, new, unpurchase, and update):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#index (for 127.0.0.1 at 2010-09-11 15:32:01) [GET]
+Rendering template within layouts/gifts
+Rendering gifts/index
+Rendered gifts/_web_copy (0.1ms)
+  [4;35;1mGift Load (0.3ms)[0m   [0mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 1) [0m
+  [4;36;1mGift Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `gifts`[0m
+Rendered gifts/_our_gifts (6.7ms)
+  [4;35;1mGift Load (0.2ms)[0m   [0mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 0) [0m
+Rendered gifts/_other_gifts (5.3ms)
+Completed in 21ms (View: 16, DB: 2) | 200 OK [http://localhost/gifts]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#unpurchase (for 127.0.0.1 at 2010-09-11 15:32:06) [GET]
+  Parameters: {"authenticity_token"=>"eB3FyF+acBj6QzGA++atarK8pD9bQgebeYED+ydwHEU=", "id"=>"2"}
+  [4;36;1mGift Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `gifts`[0m
+  [4;35;1mGift Load (0.7ms)[0m   [0mSELECT * FROM `gifts` WHERE (`gifts`.`id` = 2) [0m
+
+NoMethodError (undefined method `purchase_date=' for #<Gift:0x103383f20>):
+  app/models/gift.rb:8:in `unpurchase'
+  app/controllers/gifts_controller.rb:75:in `unpurchase'
+
+Rendered rescues/_trace (40.0ms)
+Rendered rescues/_request_and_response (1.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#unpurchase (for 127.0.0.1 at 2010-09-11 15:32:29) [GET]
+  Parameters: {"authenticity_token"=>"eB3FyF+acBj6QzGA++atarK8pD9bQgebeYED+ydwHEU=", "id"=>"2"}
+  [4;36;1mGift Columns (2.1ms)[0m   [0;1mSHOW FIELDS FROM `gifts`[0m
+  [4;35;1mGift Load (0.7ms)[0m   [0mSELECT * FROM `gifts` WHERE (`gifts`.`id` = 2) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/gifts
+Completed in 10ms (DB: 3) | 302 Found [http://localhost/gifts/2/unpurchase]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#index (for 127.0.0.1 at 2010-09-11 15:32:29) [GET]
+Rendering template within layouts/gifts
+Rendering gifts/index
+Rendered gifts/_web_copy (0.1ms)
+  [4;36;1mGift Load (0.3ms)[0m   [0;1mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 1) [0m
+  [4;35;1mGift Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `gifts`[0m
+Rendered gifts/_our_gifts (5.7ms)
+  [4;36;1mGift Load (0.2ms)[0m   [0;1mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 0) [0m
+Rendered gifts/_other_gifts (5.0ms)
+Completed in 16ms (View: 11, DB: 2) | 200 OK [http://localhost/gifts]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#unpurchase (for 127.0.0.1 at 2010-09-11 15:32:33) [GET]
+  Parameters: {"authenticity_token"=>"eB3FyF+acBj6QzGA++atarK8pD9bQgebeYED+ydwHEU=", "id"=>"2"}
+  [4;35;1mGift Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `gifts`[0m
+  [4;36;1mGift Load (0.7ms)[0m   [0;1mSELECT * FROM `gifts` WHERE (`gifts`.`id` = 2) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3000/gifts
+Completed in 12ms (DB: 2) | 302 Found [http://localhost/gifts/2/unpurchase]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#index (for 127.0.0.1 at 2010-09-11 15:32:33) [GET]
+Rendering template within layouts/gifts
+Rendering gifts/index
+Rendered gifts/_web_copy (0.1ms)
+  [4;35;1mGift Load (0.3ms)[0m   [0mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 1) [0m
+  [4;36;1mGift Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `gifts`[0m
+Rendered gifts/_our_gifts (6.0ms)
+  [4;35;1mGift Load (0.2ms)[0m   [0mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 0) [0m
+Rendered gifts/_other_gifts (5.1ms)
+Completed in 16ms (View: 11, DB: 2) | 200 OK [http://localhost/gifts]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#unpurchase (for 127.0.0.1 at 2010-09-11 15:33:06) [GET]
+  Parameters: {"authenticity_token"=>"eB3FyF+acBj6QzGA++atarK8pD9bQgebeYED+ydwHEU=", "id"=>"2"}
+  [4;36;1mGift Columns (4.8ms)[0m   [0;1mSHOW FIELDS FROM `gifts`[0m
+  [4;35;1mGift Load (0.2ms)[0m   [0mSELECT * FROM `gifts` WHERE (`gifts`.`id` = 2) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/gifts
+Completed in 26ms (DB: 5) | 302 Found [http://localhost/gifts/2/unpurchase]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#index (for 127.0.0.1 at 2010-09-11 15:33:06) [GET]
+Rendering template within layouts/gifts
+Rendering gifts/index
+Rendered gifts/_web_copy (0.1ms)
+  [4;36;1mGift Load (0.3ms)[0m   [0;1mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 1) [0m
+  [4;35;1mGift Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `gifts`[0m
+Rendered gifts/_our_gifts (5.8ms)
+  [4;36;1mGift Load (0.2ms)[0m   [0;1mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 0) [0m
+Rendered gifts/_other_gifts (10.8ms)
+Completed in 25ms (View: 20, DB: 2) | 200 OK [http://localhost/gifts]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#unpurchase (for 127.0.0.1 at 2010-09-11 15:33:10) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mGift Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `gifts`[0m
+  [4;36;1mGift Load (0.2ms)[0m   [0;1mSELECT * FROM `gifts` WHERE (`gifts`.`id` = 2) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3000/gifts
+Completed in 8ms (DB: 2) | 302 Found [http://localhost/gifts/2/unpurchase]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#index (for 127.0.0.1 at 2010-09-11 15:33:10) [GET]
+Rendering template within layouts/gifts
+Rendering gifts/index
+Rendered gifts/_web_copy (0.1ms)
+  [4;35;1mGift Load (0.3ms)[0m   [0mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 1) [0m
+  [4;36;1mGift Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `gifts`[0m
+Rendered gifts/_our_gifts (4.9ms)
+  [4;35;1mGift Load (0.2ms)[0m   [0mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 0) [0m
+Rendered gifts/_other_gifts (5.5ms)
+Completed in 16ms (View: 10, DB: 2) | 200 OK [http://localhost/gifts]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#index (for 127.0.0.1 at 2010-09-11 15:33:16) [GET]
+Rendering template within layouts/gifts
+Rendering gifts/index
+Rendered gifts/_web_copy (0.1ms)
+  [4;36;1mGift Load (0.3ms)[0m   [0;1mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 1) [0m
+  [4;35;1mGift Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `gifts`[0m
+Rendered gifts/_our_gifts (6.4ms)
+  [4;36;1mGift Load (0.2ms)[0m   [0;1mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 0) [0m
+Rendered gifts/_other_gifts (4.9ms)
+Completed in 20ms (View: 14, DB: 2) | 200 OK [http://localhost/gifts]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#unpurchase (for 127.0.0.1 at 2010-09-11 15:33:19) [GET]
+  Parameters: {"authenticity_token"=>"eB3FyF+acBj6QzGA++atarK8pD9bQgebeYED+ydwHEU=", "id"=>"2"}
+  [4;35;1mGift Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `gifts`[0m
+  [4;36;1mGift Load (0.7ms)[0m   [0;1mSELECT * FROM `gifts` WHERE (`gifts`.`id` = 2) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3000/gifts
+Completed in 12ms (DB: 2) | 302 Found [http://localhost/gifts/2/unpurchase]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#index (for 127.0.0.1 at 2010-09-11 15:33:19) [GET]
+Rendering template within layouts/gifts
+Rendering gifts/index
+Rendered gifts/_web_copy (0.1ms)
+  [4;35;1mGift Load (0.3ms)[0m   [0mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 1) [0m
+  [4;36;1mGift Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `gifts`[0m
+Rendered gifts/_our_gifts (5.7ms)
+  [4;35;1mGift Load (0.2ms)[0m   [0mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 0) [0m
+Rendered gifts/_other_gifts (4.9ms)
+Completed in 16ms (View: 11, DB: 1) | 200 OK [http://localhost/gifts]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#index (for 127.0.0.1 at 2010-09-11 15:34:37) [GET]
+Rendering template within layouts/gifts
+Rendering gifts/index
+Rendered gifts/_web_copy (0.1ms)
+  [4;36;1mGift Load (0.3ms)[0m   [0;1mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 1) [0m
+  [4;35;1mGift Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `gifts`[0m
+Rendered gifts/_our_gifts (5.2ms)
+  [4;36;1mGift Load (0.2ms)[0m   [0;1mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 0) [0m
+Rendered gifts/_other_gifts (5.2ms)
+Completed in 19ms (View: 14, DB: 1) | 200 OK [http://localhost/gifts]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#index (for 127.0.0.1 at 2010-09-11 15:35:18) [GET]
+Rendering template within layouts/gifts
+Rendering gifts/index
+Rendered gifts/_web_copy (0.1ms)
+  [4;35;1mGift Load (0.3ms)[0m   [0mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 1) [0m
+  [4;36;1mGift Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `gifts`[0m
+Rendered gifts/_our_gifts (5.4ms)
+  [4;35;1mGift Load (0.2ms)[0m   [0mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 0) [0m
+Rendered gifts/_other_gifts (6.4ms)
+Completed in 79ms (View: 74, DB: 2) | 200 OK [http://localhost/gifts]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#index (for 127.0.0.1 at 2010-09-11 15:36:39) [GET]
+Rendering template within layouts/gifts
+Rendering gifts/index
+Rendered gifts/_web_copy (0.1ms)
+  [4;36;1mGift Load (0.3ms)[0m   [0;1mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 1) [0m
+  [4;35;1mGift Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `gifts`[0m
+  [4;36;1mGift Load (0.2ms)[0m   [0;1mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 0) [0m
+
+ActionView::TemplateError (undefined method `purchase_gift_path' for #<ActionView::Base:0x10356c0a8>) on line #13 of app/views/gifts/_our_gifts.html.erb:
+10:     <td><%= link_to 'Edit', edit_gift_path(gift) %></td>
+11:     <td>
+12:       <% if gift.purchased_on.blank? %>
+13:         <%= link_to 'Purchase', purchase_gift_path(gift), :confirm => 'Are you sure you want to purchase this gift?' %>
+14:       <% else %>
+15:         <%= link_to 'Un-purchase', unpurchase_gift_path(gift), :confirm => 'Are you sure you want to cancel this purchase?' %>
+16:       <% end %>
+
+    app/views/gifts/_our_gifts.html.erb:13
+    app/views/gifts/_our_gifts.html.erb:7
+    app/views/gifts/index.html.erb:2
+    app/controllers/gifts_controller.rb:8:in `index'
+
+Rendered rescues/_trace (57.3ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#index (for 127.0.0.1 at 2010-09-11 15:37:20) [GET]
+Rendering template within layouts/gifts
+Rendering gifts/index
+Rendered gifts/_web_copy (0.1ms)
+  [4;35;1mGift Load (0.3ms)[0m   [0mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 1) [0m
+  [4;36;1mGift Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `gifts`[0m
+Rendered gifts/_our_gifts (5.7ms)
+  [4;35;1mGift Load (0.2ms)[0m   [0mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 0) [0m
+Rendered gifts/_other_gifts (5.4ms)
+Completed in 19ms (View: 14, DB: 2) | 200 OK [http://localhost/gifts]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#purchase (for 127.0.0.1 at 2010-09-11 15:37:24) [GET]
+  Parameters: {"id"=>"2"}
+
+ActionController::UnknownAction (No action responded to purchase. Actions: create, destroy, edit, index, new, unpurchase, and update):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#purchase (for 127.0.0.1 at 2010-09-11 15:37:44) [GET]
+  Parameters: {"id"=>"2"}
+
+ActionController::UnknownAction (No action responded to purchase. Actions: create, destroy, edit, index, new, unpurchase, and update):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#index (for 127.0.0.1 at 2010-09-11 15:37:46) [GET]
+Rendering template within layouts/gifts
+Rendering gifts/index
+Rendered gifts/_web_copy (0.1ms)
+  [4;36;1mGift Load (0.3ms)[0m   [0;1mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 1) [0m
+  [4;35;1mGift Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `gifts`[0m
+Rendered gifts/_our_gifts (4.2ms)
+  [4;36;1mGift Load (0.1ms)[0m   [0;1mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 0) [0m
+Rendered gifts/_other_gifts (5.1ms)
+Completed in 14ms (View: 10, DB: 1) | 200 OK [http://localhost/gifts]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#purchase (for 127.0.0.1 at 2010-09-11 15:37:48) [GET]
+  Parameters: {"id"=>"2"}
+
+ActionController::UnknownAction (No action responded to purchase. Actions: create, destroy, edit, index, new, unpurchase, and update):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.3ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#purchase (for 127.0.0.1 at 2010-09-11 15:40:25) [GET]
+  Parameters: {"id"=>"2"}
+
+ActionController::UnknownAction (No action responded to purchase. Actions: create, destroy, edit, index, new, unpurchase, and update):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#index (for 127.0.0.1 at 2010-09-11 15:40:26) [GET]
+Rendering template within layouts/gifts
+Rendering gifts/index
+Rendered gifts/_web_copy (0.1ms)
+  [4;35;1mGift Load (0.3ms)[0m   [0mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 1) [0m
+Rendered gifts/_our_gifts (2.2ms)
+  [4;36;1mGift Load (0.1ms)[0m   [0;1mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 0) [0m
+  [4;35;1mGift Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `gifts`[0m
+Rendered gifts/_other_gifts (7.6ms)
+Completed in 18ms (View: 13, DB: 2) | 200 OK [http://localhost/gifts]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#index (for 127.0.0.1 at 2010-09-11 15:40:29) [GET]
+  Parameters: {"admin"=>"1"}
+Rendering template within layouts/gifts
+Rendering gifts/index
+Rendered gifts/_web_copy (0.1ms)
+  [4;36;1mGift Load (0.3ms)[0m   [0;1mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 1) [0m
+Rendered gifts/_our_gifts (1.6ms)
+  [4;35;1mGift Load (0.1ms)[0m   [0mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 0) [0m
+  [4;36;1mGift Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `gifts`[0m
+Rendered gifts/_other_gifts (7.5ms)
+Completed in 14ms (View: 10, DB: 2) | 200 OK [http://localhost/gifts?admin=1]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#new (for 127.0.0.1 at 2010-09-11 15:40:31) [GET]
+  Parameters: {"is_admin"=>"true"}
+  [4;35;1mGift Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `gifts`[0m
+Rendering template within layouts/gifts
+Rendering gifts/new
+Completed in 16ms (View: 10, DB: 1) | 200 OK [http://localhost/gifts/new?is_admin=true]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#stylesheets to css (for 127.0.0.1 at 2010-09-11 15:40:31) [GET]
+  Parameters: {"id"=>"reset"}
+
+ActionController::UnknownAction (No action responded to stylesheets. Actions: create, destroy, edit, index, new, unpurchase, and update):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#stylesheets to css (for 127.0.0.1 at 2010-09-11 15:40:31) [GET]
+  Parameters: {"id"=>"text"}
+
+ActionController::UnknownAction (No action responded to stylesheets. Actions: create, destroy, edit, index, new, unpurchase, and update):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#stylesheets to css (for 127.0.0.1 at 2010-09-11 15:40:31) [GET]
+  Parameters: {"id"=>"960"}
+
+ActionController::UnknownAction (No action responded to stylesheets. Actions: create, destroy, edit, index, new, unpurchase, and update):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#create (for 127.0.0.1 at 2010-09-11 15:40:34) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"eB3FyF+acBj6QzGA++atarK8pD9bQgebeYED+ydwHEU=", "gift"=>{"is_admin"=>"1", "description"=>"aaaaaa"}}
+  [4;36;1mGift Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `gifts`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mGift Create (0.2ms)[0m   [0;1mINSERT INTO `gifts` (`created_at`, `updated_at`, `is_admin`, `purchased_on`, `description`) VALUES('2010-09-11 05:40:34', '2010-09-11 05:40:34', 1, NULL, 'aaaaaa')[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/gifts
+Completed in 9ms (DB: 2) | 302 Found [http://localhost/gifts]
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#index (for 127.0.0.1 at 2010-09-11 15:40:34) [GET]
+Rendering template within layouts/gifts
+Rendering gifts/index
+Rendered gifts/_web_copy (0.1ms)
+  [4;36;1mGift Load (0.3ms)[0m   [0;1mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 1) [0m
+  [4;35;1mGift Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `gifts`[0m
+Rendered gifts/_our_gifts (5.0ms)
+  [4;36;1mGift Load (0.2ms)[0m   [0;1mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 0) [0m
+Rendered gifts/_other_gifts (5.3ms)
+Completed in 16ms (View: 10, DB: 2) | 200 OK [http://localhost/gifts]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#purchase (for 127.0.0.1 at 2010-09-11 15:40:38) [GET]
+  Parameters: {"id"=>"4"}
+
+ActionController::UnknownAction (No action responded to purchase. Actions: create, destroy, edit, index, new, unpurchase, and update):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#index (for 127.0.0.1 at 2010-09-11 15:44:04) [GET]
+Rendering template within layouts/gifts
+Rendering gifts/index
+Rendered gifts/_web_copy (0.3ms)
+  [4;36;1mGift Load (0.3ms)[0m   [0;1mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 1) [0m
+  [4;35;1mGift Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `gifts`[0m
+Rendered gifts/_our_gifts (11.5ms)
+  [4;36;1mGift Load (0.3ms)[0m   [0;1mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 0) [0m
+Rendered gifts/_other_gifts (6.3ms)
+Completed in 97ms (View: 92, DB: 2) | 200 OK [http://localhost/gifts]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#index (for 127.0.0.1 at 2010-09-11 15:44:05) [GET]
+Rendering template within layouts/gifts
+Rendering gifts/index
+Rendered gifts/_web_copy (0.1ms)
+  [4;35;1mGift Load (0.3ms)[0m   [0mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 1) [0m
+  [4;36;1mGift Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `gifts`[0m
+Rendered gifts/_our_gifts (4.7ms)
+  [4;35;1mGift Load (0.2ms)[0m   [0mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 0) [0m
+Rendered gifts/_other_gifts (5.3ms)
+Completed in 15ms (View: 10, DB: 2) | 200 OK [http://localhost/gifts]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#index (for 127.0.0.1 at 2010-09-11 15:44:05) [GET]
+Rendering template within layouts/gifts
+Rendering gifts/index
+Rendered gifts/_web_copy (0.1ms)
+  [4;36;1mGift Load (0.3ms)[0m   [0;1mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 1) [0m
+  [4;35;1mGift Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `gifts`[0m
+Rendered gifts/_our_gifts (4.4ms)
+  [4;36;1mGift Load (0.2ms)[0m   [0;1mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 0) [0m
+Rendered gifts/_other_gifts (5.2ms)
+Completed in 15ms (View: 10, DB: 1) | 200 OK [http://localhost/gifts]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#index (for 127.0.0.1 at 2010-09-11 15:44:05) [GET]
+Rendering template within layouts/gifts
+Rendering gifts/index
+Rendered gifts/_web_copy (0.1ms)
+  [4;35;1mGift Load (0.3ms)[0m   [0mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 1) [0m
+  [4;36;1mGift Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `gifts`[0m
+Rendered gifts/_our_gifts (4.2ms)
+  [4;35;1mGift Load (0.2ms)[0m   [0mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 0) [0m
+Rendered gifts/_other_gifts (5.4ms)
+Completed in 15ms (View: 10, DB: 1) | 200 OK [http://localhost/gifts]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#index (for 127.0.0.1 at 2010-09-11 15:44:05) [GET]
+Rendering template within layouts/gifts
+Rendering gifts/index
+Rendered gifts/_web_copy (0.1ms)
+  [4;36;1mGift Load (0.3ms)[0m   [0;1mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 1) [0m
+  [4;35;1mGift Columns (0.8ms)[0m   [0mSHOW FIELDS FROM `gifts`[0m
+Rendered gifts/_our_gifts (4.4ms)
+  [4;36;1mGift Load (0.2ms)[0m   [0;1mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 0) [0m
+Rendered gifts/_other_gifts (5.6ms)
+Completed in 15ms (View: 11, DB: 1) | 200 OK [http://localhost/gifts]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#4 (for 127.0.0.1 at 2010-09-11 15:44:07) [GET]
+  Parameters: {"id"=>"purchase"}
+
+ActionController::UnknownAction (No action responded to 4. Actions: create, destroy, edit, index, new, unpurchase, and update):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#index (for 127.0.0.1 at 2010-09-11 15:55:25) [GET]
+Rendering template within layouts/gifts
+Rendering gifts/index
+Rendered gifts/_web_copy (0.1ms)
+  [4;35;1mGift Load (0.3ms)[0m   [0mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 1) [0m
+  [4;36;1mGift Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `gifts`[0m
+Rendered gifts/_our_gifts (6.9ms)
+  [4;35;1mGift Load (0.2ms)[0m   [0mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 0) [0m
+Rendered gifts/_other_gifts (5.1ms)
+Completed in 22ms (View: 16, DB: 2) | 200 OK [http://localhost/gifts]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#edit (for 127.0.0.1 at 2010-09-11 15:55:39) [GET]
+  Parameters: {"id"=>"4"}
+  [4;36;1mGift Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `gifts`[0m
+  [4;35;1mGift Load (0.2ms)[0m   [0mSELECT * FROM `gifts` WHERE (`gifts`.`id` = 4) [0m
+Rendering template within layouts/gifts
+Rendering gifts/edit
+Completed in 17ms (View: 11, DB: 2) | 200 OK [http://localhost/gifts/4/edit]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-09-11 15:55:39) [GET]
+
+ActionController::RoutingError (No route matches "/gifts/4/stylesheets/reset.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-09-11 15:55:39) [GET]
+
+ActionController::RoutingError (No route matches "/gifts/4/stylesheets/text.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-09-11 15:55:39) [GET]
+
+ActionController::RoutingError (No route matches "/gifts/4/stylesheets/960.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#index (for 127.0.0.1 at 2010-09-11 15:55:41) [GET]
+Rendering template within layouts/gifts
+Rendering gifts/index
+Rendered gifts/_web_copy (0.1ms)
+  [4;36;1mGift Load (0.3ms)[0m   [0;1mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 1) [0m
+  [4;35;1mGift Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `gifts`[0m
+Rendered gifts/_our_gifts (5.9ms)
+  [4;36;1mGift Load (0.2ms)[0m   [0;1mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 0) [0m
+Rendered gifts/_other_gifts (5.1ms)
+Completed in 16ms (View: 11, DB: 2) | 200 OK [http://localhost/gifts]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#index (for 127.0.0.1 at 2010-09-11 15:57:15) [GET]
+Rendering template within layouts/gifts
+Rendering gifts/index
+Rendered gifts/_web_copy (0.1ms)
+  [4;35;1mGift Load (0.3ms)[0m   [0mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 1) [0m
+  [4;36;1mGift Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `gifts`[0m
+Rendered gifts/_our_gifts (64.3ms)
+  [4;35;1mGift Load (0.2ms)[0m   [0mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 0) [0m
+Rendered gifts/_other_gifts (5.1ms)
+Completed in 78ms (View: 73, DB: 2) | 200 OK [http://localhost/gifts]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#index (for 127.0.0.1 at 2010-09-11 15:58:00) [GET]
+Rendering template within layouts/gifts
+Rendering gifts/index
+Rendered gifts/_web_copy (0.1ms)
+  [4;36;1mGift Load (0.3ms)[0m   [0;1mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 1) [0m
+  [4;35;1mGift Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `gifts`[0m
+Rendered gifts/_our_gifts (5.6ms)
+  [4;36;1mGift Load (0.2ms)[0m   [0;1mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 0) [0m
+Rendered gifts/_other_gifts (5.1ms)
+Completed in 16ms (View: 11, DB: 2) | 200 OK [http://localhost/gifts]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#index (for 127.0.0.1 at 2010-09-11 16:04:05) [GET]
+Rendering template within layouts/gifts
+Rendering gifts/index
+Rendered gifts/_web_copy (0.1ms)
+  [4;35;1mGift Load (0.3ms)[0m   [0mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 1) [0m
+  [4;36;1mGift Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `gifts`[0m
+Rendered gifts/_our_gifts (7.4ms)
+  [4;35;1mGift Load (0.2ms)[0m   [0mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 0) [0m
+Rendered gifts/_other_gifts (5.0ms)
+Completed in 21ms (View: 15, DB: 2) | 200 OK [http://localhost/gifts]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#index (for 127.0.0.1 at 2010-09-11 16:04:13) [GET]
+Rendering template within layouts/gifts
+Rendering gifts/index
+Rendered gifts/_web_copy (0.1ms)
+  [4;36;1mGift Load (0.3ms)[0m   [0;1mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 1) [0m
+  [4;35;1mGift Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `gifts`[0m
+Rendered gifts/_our_gifts (5.8ms)
+  [4;36;1mGift Load (0.2ms)[0m   [0;1mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 0) [0m
+Rendered gifts/_other_gifts (5.1ms)
+Completed in 17ms (View: 11, DB: 2) | 200 OK [http://localhost/gifts]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#index (for 127.0.0.1 at 2010-09-11 16:04:53) [GET]
+Rendering template within layouts/gifts
+Rendering gifts/index
+Rendered gifts/_web_copy (0.1ms)
+  [4;35;1mGift Load (0.3ms)[0m   [0mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 1) [0m
+  [4;36;1mGift Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `gifts`[0m
+Rendered gifts/_our_gifts (5.4ms)
+  [4;35;1mGift Load (0.2ms)[0m   [0mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 0) [0m
+Rendered gifts/_other_gifts (5.0ms)
+Completed in 16ms (View: 11, DB: 2) | 200 OK [http://localhost/gifts]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#index (for 127.0.0.1 at 2010-09-11 16:08:23) [GET]
+Rendering template within layouts/gifts
+Rendering gifts/index
+Rendered gifts/_web_copy (0.1ms)
+  [4;36;1mGift Load (0.3ms)[0m   [0;1mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 1) [0m
+  [4;35;1mGift Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `gifts`[0m
+Rendered gifts/_our_gifts (5.5ms)
+  [4;36;1mGift Load (0.2ms)[0m   [0;1mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 0) [0m
+Rendered gifts/_other_gifts (5.0ms)
+Completed in 77ms (View: 15, DB: 2) | 200 OK [http://localhost/gifts]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#purchase (for 127.0.0.1 at 2010-09-11 16:08:27) [POST]
+  Parameters: {"authenticity_token"=>"eB3FyF+acBj6QzGA++atarK8pD9bQgebeYED+ydwHEU=", "id"=>"4"}
+
+ActionController::UnknownAction (No action responded to purchase. Actions: create, destroy, edit, index, new, unpurchase, and update):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#index (for 127.0.0.1 at 2010-09-11 16:09:32) [GET]
+Rendering template within layouts/gifts
+Rendering gifts/index
+Rendered gifts/_web_copy (0.1ms)
+  [4;35;1mGift Load (0.3ms)[0m   [0mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 1) [0m
+  [4;36;1mGift Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `gifts`[0m
+Rendered gifts/_our_gifts (6.0ms)
+  [4;35;1mGift Load (0.2ms)[0m   [0mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 0) [0m
+Rendered gifts/_other_gifts (5.2ms)
+Completed in 17ms (View: 11, DB: 2) | 200 OK [http://localhost/gifts]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#purchase (for 127.0.0.1 at 2010-09-11 16:09:35) [POST]
+  Parameters: {"authenticity_token"=>"eB3FyF+acBj6QzGA++atarK8pD9bQgebeYED+ydwHEU=", "id"=>"4"}
+  [4;36;1mGift Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `gifts`[0m
+  [4;35;1mGift Load (0.7ms)[0m   [0mSELECT * FROM `gifts` WHERE (`gifts`.`id` = 4) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mGift Update (0.4ms)[0m   [0mUPDATE `gifts` SET `updated_at` = '2010-09-11 06:09:35', `purchased_on` = '2010-09-11' WHERE `id` = 4[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3000/gifts
+Completed in 14ms (DB: 3) | 302 Found [http://localhost/gifts/4/purchase]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#index (for 127.0.0.1 at 2010-09-11 16:09:35) [GET]
+Rendering template within layouts/gifts
+Rendering gifts/index
+Rendered gifts/_web_copy (0.1ms)
+  [4;35;1mGift Load (0.3ms)[0m   [0mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 1) [0m
+  [4;36;1mGift Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `gifts`[0m
+Rendered gifts/_our_gifts (4.8ms)
+  [4;35;1mGift Load (0.7ms)[0m   [0mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 0) [0m
+Rendered gifts/_other_gifts (6.9ms)
+Completed in 18ms (View: 11, DB: 2) | 200 OK [http://localhost/gifts]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#index (for 127.0.0.1 at 2010-09-11 16:09:37) [GET]
+Rendering template within layouts/gifts
+Rendering gifts/index
+Rendered gifts/_web_copy (0.1ms)
+  [4;36;1mGift Load (0.3ms)[0m   [0;1mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 1) [0m
+  [4;35;1mGift Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `gifts`[0m
+Rendered gifts/_our_gifts (4.4ms)
+  [4;36;1mGift Load (0.2ms)[0m   [0;1mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 0) [0m
+Rendered gifts/_other_gifts (63.3ms)
+Completed in 73ms (View: 68, DB: 2) | 200 OK [http://localhost/gifts]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#4 (for 127.0.0.1 at 2010-09-11 16:09:46) [GET]
+  Parameters: {"id"=>"unpurchase"}
+
+ActionController::UnknownAction (No action responded to 4. Actions: create, destroy, edit, index, new, purchase, unpurchase, and update):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#4 (for 127.0.0.1 at 2010-09-11 16:10:45) [GET]
+  Parameters: {"id"=>"unpurchase"}
+
+ActionController::UnknownAction (No action responded to 4. Actions: create, destroy, edit, index, new, purchase, unpurchase, and update):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#index (for 127.0.0.1 at 2010-09-11 16:14:12) [GET]
+Rendering template within layouts/gifts
+Rendering gifts/index
+Rendered gifts/_web_copy (0.1ms)
+  [4;35;1mGift Load (0.3ms)[0m   [0mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 1) [0m
+  [4;36;1mGift Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `gifts`[0m
+Rendered gifts/_our_gifts (6.2ms)
+  [4;35;1mGift Load (0.2ms)[0m   [0mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 0) [0m
+Rendered gifts/_other_gifts (5.2ms)
+Completed in 20ms (View: 15, DB: 2) | 200 OK [http://localhost/gifts]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#unpurchase (for 127.0.0.1 at 2010-09-11 16:14:15) [POST]
+  Parameters: {"authenticity_token"=>"eB3FyF+acBj6QzGA++atarK8pD9bQgebeYED+ydwHEU=", "id"=>"4"}
+  [4;36;1mGift Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `gifts`[0m
+  [4;35;1mGift Load (0.6ms)[0m   [0mSELECT * FROM `gifts` WHERE (`gifts`.`id` = 4) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mGift Update (0.2ms)[0m   [0mUPDATE `gifts` SET `updated_at` = '2010-09-11 06:14:15', `purchased_on` = NULL WHERE `id` = 4[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3000/gifts
+Completed in 10ms (DB: 2) | 302 Found [http://localhost/gifts/4/unpurchase]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#index (for 127.0.0.1 at 2010-09-11 16:14:15) [GET]
+Rendering template within layouts/gifts
+Rendering gifts/index
+Rendered gifts/_web_copy (0.1ms)
+  [4;35;1mGift Load (0.4ms)[0m   [0mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 1) [0m
+  [4;36;1mGift Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `gifts`[0m
+Rendered gifts/_our_gifts (7.4ms)
+  [4;35;1mGift Load (0.5ms)[0m   [0mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 0) [0m
+Rendered gifts/_other_gifts (6.3ms)
+Completed in 20ms (View: 14, DB: 2) | 200 OK [http://localhost/gifts]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#index (for 127.0.0.1 at 2010-09-11 16:14:16) [GET]
+Rendering template within layouts/gifts
+Rendering gifts/index
+Rendered gifts/_web_copy (0.1ms)
+  [4;36;1mGift Load (0.3ms)[0m   [0;1mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 1) [0m
+  [4;35;1mGift Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `gifts`[0m
+Rendered gifts/_our_gifts (4.9ms)
+  [4;36;1mGift Load (0.2ms)[0m   [0;1mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 0) [0m
+Rendered gifts/_other_gifts (62.7ms)
+Completed in 73ms (View: 68, DB: 1) | 200 OK [http://localhost/gifts]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#index (for 127.0.0.1 at 2010-09-11 16:15:16) [GET]
+Rendering template within layouts/gifts
+Rendering gifts/index
+Rendered gifts/_web_copy (0.1ms)
+  [4;35;1mGift Load (0.3ms)[0m   [0mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 1) [0m
+  [4;36;1mGift Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `gifts`[0m
+Rendered gifts/_our_gifts (5.7ms)
+  [4;35;1mGift Load (0.2ms)[0m   [0mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 0) [0m
+Rendered gifts/_other_gifts (5.1ms)
+Completed in 19ms (View: 14, DB: 2) | 200 OK [http://localhost/gifts]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#index (for 127.0.0.1 at 2010-09-11 16:15:21) [GET]
+  Parameters: {"admin"=>"1"}
+Rendering template within layouts/gifts
+Rendering gifts/index
+Rendered gifts/_web_copy (0.1ms)
+  [4;36;1mGift Load (0.3ms)[0m   [0;1mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 1) [0m
+  [4;35;1mGift Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `gifts`[0m
+Rendered gifts/_our_gifts (5.2ms)
+  [4;36;1mGift Load (0.2ms)[0m   [0;1mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 0) [0m
+Rendered gifts/_other_gifts (5.0ms)
+Completed in 16ms (View: 11, DB: 1) | 200 OK [http://localhost/gifts?admin=1]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#edit (for 127.0.0.1 at 2010-09-11 16:15:24) [GET]
+  Parameters: {"id"=>"4"}
+  [4;35;1mGift Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `gifts`[0m
+  [4;36;1mGift Load (0.2ms)[0m   [0;1mSELECT * FROM `gifts` WHERE (`gifts`.`id` = 4) [0m
+Rendering template within layouts/gifts
+Rendering gifts/edit
+Completed in 12ms (View: 6, DB: 2) | 200 OK [http://localhost/gifts/4/edit]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-09-11 16:15:24) [GET]
+
+ActionController::RoutingError (No route matches "/gifts/4/stylesheets/reset.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-09-11 16:15:24) [GET]
+
+ActionController::RoutingError (No route matches "/gifts/4/stylesheets/text.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-09-11 16:15:24) [GET]
+
+ActionController::RoutingError (No route matches "/gifts/4/stylesheets/960.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#update (for 127.0.0.1 at 2010-09-11 16:15:26) [PUT]
+  Parameters: {"commit"=>"Update", "authenticity_token"=>"eB3FyF+acBj6QzGA++atarK8pD9bQgebeYED+ydwHEU=", "id"=>"4", "gift"=>{"description"=>"whatever"}}
+  [4;35;1mGift Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `gifts`[0m
+  [4;36;1mGift Load (0.3ms)[0m   [0;1mSELECT * FROM `gifts` WHERE (`gifts`.`id` = 4) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mGift Update (0.2ms)[0m   [0;1mUPDATE `gifts` SET `updated_at` = '2010-09-11 06:15:26', `description` = 'whatever' WHERE `id` = 4[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/gifts
+Completed in 10ms (DB: 2) | 302 Found [http://localhost/gifts/4]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#index (for 127.0.0.1 at 2010-09-11 16:15:26) [GET]
+Rendering template within layouts/gifts
+Rendering gifts/index
+Rendered gifts/_web_copy (0.1ms)
+  [4;36;1mGift Load (0.3ms)[0m   [0;1mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 1) [0m
+  [4;35;1mGift Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `gifts`[0m
+Rendered gifts/_our_gifts (4.8ms)
+  [4;36;1mGift Load (0.2ms)[0m   [0;1mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 0) [0m
+Rendered gifts/_other_gifts (5.0ms)
+Completed in 15ms (View: 10, DB: 1) | 200 OK [http://localhost/gifts]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#index (for 127.0.0.1 at 2010-09-11 16:20:20) [GET]
+Rendering template within layouts/gifts
+Rendering gifts/index
+Rendered gifts/_web_copy (0.1ms)
+  [4;35;1mGift Load (0.3ms)[0m   [0mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 1) [0m
+  [4;36;1mGift Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `gifts`[0m
+Rendered gifts/_our_gifts (4.9ms)
+  [4;35;1mGift Load (0.2ms)[0m   [0mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 0) [0m
+Rendered gifts/_other_gifts (5.0ms)
+Completed in 16ms (View: 10, DB: 2) | 200 OK [http://localhost/gifts]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#index (for 127.0.0.1 at 2010-09-11 16:23:57) [GET]
+Rendering template within layouts/gifts
+Rendering gifts/index
+Rendered gifts/_web_copy (0.1ms)
+  [4;36;1mGift Load (0.3ms)[0m   [0;1mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 1) [0m
+  [4;35;1mGift Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `gifts`[0m
+Rendered gifts/_our_gifts (4.8ms)
+  [4;36;1mGift Load (0.2ms)[0m   [0;1mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 0) [0m
+Rendered gifts/_other_gifts (6.7ms)
+Completed in 20ms (View: 15, DB: 2) | 200 OK [http://localhost/gifts]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#new (for 127.0.0.1 at 2010-09-11 16:23:59) [GET]
+  Parameters: {"other_gift"=>"true"}
+  [4;35;1mGift Columns (1.4ms)[0m   [0mSHOW FIELDS FROM `gifts`[0m
+Rendering template within layouts/gifts
+Rendering gifts/new
+Completed in 16ms (View: 9, DB: 2) | 200 OK [http://localhost/gifts/new?other_gift=true]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#stylesheets to css (for 127.0.0.1 at 2010-09-11 16:23:59) [GET]
+  Parameters: {"id"=>"reset"}
+
+ActionController::UnknownAction (No action responded to stylesheets. Actions: create, destroy, edit, index, new, purchase, unpurchase, and update):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#stylesheets to css (for 127.0.0.1 at 2010-09-11 16:23:59) [GET]
+  Parameters: {"id"=>"text"}
+
+ActionController::UnknownAction (No action responded to stylesheets. Actions: create, destroy, edit, index, new, purchase, unpurchase, and update):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#stylesheets to css (for 127.0.0.1 at 2010-09-11 16:23:59) [GET]
+  Parameters: {"id"=>"960"}
+
+ActionController::UnknownAction (No action responded to stylesheets. Actions: create, destroy, edit, index, new, purchase, unpurchase, and update):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#new (for 127.0.0.1 at 2010-09-11 16:25:30) [GET]
+  Parameters: {"other_gift"=>"true"}
+  [4;36;1mGift Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `gifts`[0m
+Rendering template within layouts/gifts
+Rendering gifts/new
+
+ActionView::TemplateError (undefined method `hidden' for #<ActionView::Helpers::FormBuilder:0x10350a560>) on line #17 of app/views/gifts/new.html.erb:
+14:     </p>
+15:   <% end %>
+16:   <% if params[:other_gift].present? %>
+17:     <%= f.hidden :purchased_on %>
+18:   <% end %>
+19:   <p>
+20:     <%= f.submit 'Create' %>
+
+    app/views/gifts/new.html.erb:17
+    app/views/gifts/new.html.erb:3
+    app/controllers/gifts_controller.rb:22:in `new'
+
+Rendered rescues/_trace (48.1ms)
+Rendered rescues/_request_and_response (1.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#new (for 127.0.0.1 at 2010-09-11 16:25:37) [GET]
+  Parameters: {"other_gift"=>"true"}
+  [4;35;1mGift Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `gifts`[0m
+Rendering template within layouts/gifts
+Rendering gifts/new
+Completed in 18ms (View: 10, DB: 1) | 200 OK [http://localhost/gifts/new?other_gift=true]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#stylesheets to css (for 127.0.0.1 at 2010-09-11 16:25:37) [GET]
+  Parameters: {"id"=>"reset"}
+
+ActionController::UnknownAction (No action responded to stylesheets. Actions: create, destroy, edit, index, new, purchase, unpurchase, and update):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#stylesheets to css (for 127.0.0.1 at 2010-09-11 16:25:37) [GET]
+  Parameters: {"id"=>"text"}
+
+ActionController::UnknownAction (No action responded to stylesheets. Actions: create, destroy, edit, index, new, purchase, unpurchase, and update):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#stylesheets to css (for 127.0.0.1 at 2010-09-11 16:25:37) [GET]
+  Parameters: {"id"=>"960"}
+
+ActionController::UnknownAction (No action responded to stylesheets. Actions: create, destroy, edit, index, new, purchase, unpurchase, and update):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#create (for 127.0.0.1 at 2010-09-11 16:25:46) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"eB3FyF+acBj6QzGA++atarK8pD9bQgebeYED+ydwHEU=", "gift"=>{"purchased_on"=>"2010-09-11", "description"=>"sfdsf"}}
+  [4;36;1mGift Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `gifts`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mGift Create (0.2ms)[0m   [0;1mINSERT INTO `gifts` (`created_at`, `updated_at`, `is_admin`, `purchased_on`, `description`) VALUES('2010-09-11 06:25:46', '2010-09-11 06:25:46', 0, '2010-09-11', 'sfdsf')[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/gifts
+Completed in 10ms (DB: 2) | 302 Found [http://localhost/gifts]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#index (for 127.0.0.1 at 2010-09-11 16:25:46) [GET]
+Rendering template within layouts/gifts
+Rendering gifts/index
+Rendered gifts/_web_copy (0.1ms)
+  [4;36;1mGift Load (0.3ms)[0m   [0;1mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 1) [0m
+  [4;35;1mGift Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `gifts`[0m
+Rendered gifts/_our_gifts (4.8ms)
+  [4;36;1mGift Load (0.2ms)[0m   [0;1mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 0) [0m
+Rendered gifts/_other_gifts (8.6ms)
+Completed in 22ms (View: 17, DB: 2) | 200 OK [http://localhost/gifts]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#new (for 127.0.0.1 at 2010-09-11 16:25:55) [GET]
+  Parameters: {"other_gift"=>"true"}
+  [4;35;1mGift Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `gifts`[0m
+Rendering template within layouts/gifts
+Rendering gifts/new
+Completed in 11ms (View: 5, DB: 1) | 200 OK [http://localhost/gifts/new?other_gift=true]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#stylesheets to css (for 127.0.0.1 at 2010-09-11 16:25:55) [GET]
+  Parameters: {"id"=>"reset"}
+
+ActionController::UnknownAction (No action responded to stylesheets. Actions: create, destroy, edit, index, new, purchase, unpurchase, and update):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#stylesheets to css (for 127.0.0.1 at 2010-09-11 16:25:55) [GET]
+  Parameters: {"id"=>"text"}
+
+ActionController::UnknownAction (No action responded to stylesheets. Actions: create, destroy, edit, index, new, purchase, unpurchase, and update):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#stylesheets to css (for 127.0.0.1 at 2010-09-11 16:25:55) [GET]
+  Parameters: {"id"=>"960"}
+
+ActionController::UnknownAction (No action responded to stylesheets. Actions: create, destroy, edit, index, new, purchase, unpurchase, and update):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#index (for 127.0.0.1 at 2010-09-11 16:26:01) [GET]
+  Parameters: {"admin"=>"1"}
+Rendering template within layouts/gifts
+Rendering gifts/index
+Rendered gifts/_web_copy (0.2ms)
+  [4;36;1mGift Load (0.3ms)[0m   [0;1mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 1) [0m
+  [4;35;1mGift Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `gifts`[0m
+Rendered gifts/_our_gifts (6.6ms)
+  [4;36;1mGift Load (0.2ms)[0m   [0;1mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 0) [0m
+Rendered gifts/_other_gifts (8.1ms)
+Completed in 22ms (View: 17, DB: 2) | 200 OK [http://localhost/gifts?admin=1]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#new (for 127.0.0.1 at 2010-09-11 16:26:05) [GET]
+  Parameters: {"is_admin"=>"true"}
+  [4;35;1mGift Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `gifts`[0m
+Rendering template within layouts/gifts
+Rendering gifts/new
+Completed in 12ms (View: 5, DB: 1) | 200 OK [http://localhost/gifts/new?is_admin=true]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#stylesheets to css (for 127.0.0.1 at 2010-09-11 16:26:05) [GET]
+  Parameters: {"id"=>"reset"}
+
+ActionController::UnknownAction (No action responded to stylesheets. Actions: create, destroy, edit, index, new, purchase, unpurchase, and update):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#stylesheets to css (for 127.0.0.1 at 2010-09-11 16:26:05) [GET]
+  Parameters: {"id"=>"text"}
+
+ActionController::UnknownAction (No action responded to stylesheets. Actions: create, destroy, edit, index, new, purchase, unpurchase, and update):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#stylesheets to css (for 127.0.0.1 at 2010-09-11 16:26:05) [GET]
+  Parameters: {"id"=>"960"}
+
+ActionController::UnknownAction (No action responded to stylesheets. Actions: create, destroy, edit, index, new, purchase, unpurchase, and update):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#create (for 127.0.0.1 at 2010-09-11 16:26:08) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"eB3FyF+acBj6QzGA++atarK8pD9bQgebeYED+ydwHEU=", "gift"=>{"is_admin"=>"1", "description"=>"dsadsad"}}
+  [4;36;1mGift Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `gifts`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mGift Create (0.2ms)[0m   [0;1mINSERT INTO `gifts` (`created_at`, `updated_at`, `is_admin`, `purchased_on`, `description`) VALUES('2010-09-11 06:26:08', '2010-09-11 06:26:08', 1, NULL, 'dsadsad')[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/gifts
+Completed in 9ms (DB: 2) | 302 Found [http://localhost/gifts]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GiftsController#index (for 127.0.0.1 at 2010-09-11 16:26:08) [GET]
+Rendering template within layouts/gifts
+Rendering gifts/index
+Rendered gifts/_web_copy (0.1ms)
+  [4;36;1mGift Load (0.3ms)[0m   [0;1mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 1) [0m
+  [4;35;1mGift Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `gifts`[0m
+Rendered gifts/_our_gifts (5.6ms)
+  [4;36;1mGift Load (0.2ms)[0m   [0;1mSELECT * FROM `gifts` WHERE (`gifts`.`is_admin` = 0) [0m
+Rendered gifts/_other_gifts (7.7ms)
+Completed in 18ms (View: 14, DB: 1) | 200 OK [http://localhost/gifts]

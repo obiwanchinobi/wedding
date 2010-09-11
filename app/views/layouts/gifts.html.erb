@@ -5,13 +5,23 @@
 <head>
   <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
   <title>Gifts: <%= controller.action_name %></title>
-  <%= stylesheet_link_tag 'scaffold' %>
+  <link rel="stylesheet" type="text/css" media="all" href="stylesheets/reset.css" />
+  <link rel="stylesheet" type="text/css" media="all" href="stylesheets/text.css" />
+  <link rel="stylesheet" type="text/css" media="all" href="stylesheets/960.css" />
+  <script type="text/javascript" src="/javascripts/prototype.js"></script>
 </head>
 <body>
-
-<p style="color: green"><%= notice %></p>
-
-<%= yield %>
-
+  <div class="container_16">
+    <div class="grid_16 alpha omega">
+      <h1>Title goes here</h1>
+    </div>
+    <div class="grid_12 alpha">
+      <h2>Gift ideas</h2>
+      <%= yield %>
+    </div>
+    <div class="grid_4 omega">
+      <h2>Our Stuff</h2>
+    </div>
+  </div>
 </body>
 </html>

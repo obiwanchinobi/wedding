@@ -13,7 +13,7 @@ ActiveRecord::Schema.define(:version => 20100911042740) do
 
   create_table "gifts", :force => true do |t|
     t.string   "description"
-    t.boolean  "is_admin"
+    t.boolean  "is_admin",     :default => false
     t.date     "purchased_on"
     t.datetime "created_at"
     t.datetime "updated_at"

@@ -1,0 +1,23 @@
+<h3>Other Peoples Gift Ideas</h3>
+<table>
+  <tr>
+    <th>Description</th>
+  </tr>
+
+<% @other_gifts.each do |gift| %>
+  <tr>
+    <td><%=h gift.description %></td>
+    <td>
+      <%= link_to 'Edit', edit_gift_path(gift) %>
+      |
+      <%= link_to 'Remove', gift, :confirm => 'Are you sure you want delete this item from the list?', :method => :delete %>
+    </td>
+    <td></td>
+  </tr>
+<% end %>
+
+</table>
+
+<br />
+
+<%= link_to 'New gift', new_gift_path(:other_gift => true) %>

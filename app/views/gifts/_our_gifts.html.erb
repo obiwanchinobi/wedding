@@ -1,0 +1,30 @@
+<h3>Our Gift Ideas</h3>
+<table>
+  <tr>
+    <th>Description</th>
+  </tr>
+
+<% @our_gifts.each do |gift| %>
+  <tr>
+    <td><%=h gift.description %></td>
+    <td>
+      <% if params[:admin].present? && params[:admin] == "1" %>
+        <%= link_to 'Edit', edit_gift_path(gift) %>
+        |
+      <% end %>
+      <% if gift.purchased_on.blank? %>
+        <%= link_to_remote 'Purchase', :url => { :controller => "gifts", :action => "purchase", :id => gift.id }, :confirm => 'Are you sure you want to purchase this gift?' %>
+      <% else %>
+        <%= link_to_remote 'Unpurchase', :url => { :controller => "gifts", :action => "unpurchase", :id => gift.id }, :confirm => 'Are you sure you want to cancel this purchase?' %>
+      <% end %>
+    </td>
+  </tr>
+<% end %>
+
+</table>
+
+<br />
+
+<% if params[:admin].present? && params[:admin] == "1" %>
+  <%= link_to 'New gift', new_gift_path(:is_admin => true) %>
+<% end %>
