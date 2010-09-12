@@ -9,8 +9,8 @@
     |
   <% end %>
   <% if gift.purchased_on.blank? %>
-    <%= link_to_remote 'Claim this gift!', :url => { :controller => "gifts", :action => "purchase", :id => gift.id }, :confirm => 'Are you sure you want to purchase this gift?' %>
+    <%= link_to_remote 'Claim this gift!', :url => { :controller => "gifts", :action => "purchase", :id => gift.id }, :confirm => 'Are you sure you want to claim this gift?' %>
   <% else %>
-    <%= link_to_remote 'Unclaim me', :url => { :controller => "gifts", :action => "unpurchase", :id => gift.id }, :confirm => 'Are you sure you want to cancel this purchase?' %>
+    <%= link_to_remote 'Unclaim me', :url => { :controller => "gifts", :action => "unpurchase", :id => gift.id }, :confirm => "Are you sure you want to unclaim this gift? Note: Please only continue with un-claiming this gift if you were the guest who originally claimed it!!" %>
   <% end %>
 </td>
