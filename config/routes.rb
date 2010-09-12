@@ -2,6 +2,8 @@ ActionController::Routing::Routes.draw do |map|
   map.resources :categories
 
   map.resources :gifts, :member => { :unpurchase => :post, :purchase => :post }
+  
+  map.root :controller => "gifts"
 
   # The priority is based upon order of creation: first created -> highest priority.
 
