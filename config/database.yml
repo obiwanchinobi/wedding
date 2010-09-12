@@ -31,5 +31,5 @@ production:
   database: wedding
   pool: 5
   username: root
-  password: 17051981x!
+  password: donkey
   socket: /tmp/mysql.sock
