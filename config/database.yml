@@ -30,6 +30,6 @@ production:
   reconnect: false
   database: wedding
   pool: 5
-  username: hadonkeydonkcom
-  password: 8gC29#ny!
-  host: mysql.hadonkeydonk.com
+  username: root
+  password: donkey
+  socket: /tmp/mysql.sock
