@@ -1,6 +1,11 @@
 <h2>Our Worldly Possessions</h2>
 <hr />
 
+<% if params[:admin].present? && params[:admin] == "1" %>
+  <%= link_to 'Add another', new_gift_path(:currently_own => true) %>
+  <p><a href="gifts/new?currently_own=true" rel="facebox">Add another</a></p>
+<% end %>
+
 <% @categories.each do |category| %>
   <% if category.gifts.currently_own.present? %>
     <h5><%= category.description %></h5>
@@ -21,7 +26,3 @@
 <% end %>
 
 <br />
-
-<% if params[:admin].present? && params[:admin] == "1" %>
-  <%= link_to 'Add another', new_gift_path(:currently_own => true) %>
-<% end %>
