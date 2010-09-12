@@ -45,4 +45,4 @@ production:
   pool: 5
   username: hadonkeydonkcom
   password: 17051981x!
-  socket: /tmp/mysql.sock
+  host: mysql.hadonkeydonk.com
