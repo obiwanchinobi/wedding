@@ -32,4 +32,4 @@ production:
   pool: 5
   username: root
   password: donkey
-  socket: /tmp/mysql.sock
+  host: localhost
