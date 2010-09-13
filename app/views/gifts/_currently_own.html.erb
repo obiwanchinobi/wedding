@@ -2,7 +2,6 @@
 <hr />
 
 <% if params[:admin].present? && params[:admin] == "1" %>
-  <%= link_to 'Add another', new_gift_path(:currently_own => true) %>
   <p><a href="gifts/new?currently_own=true" rel="facebox">Add another</a></p>
 <% end %>
 
@@ -17,7 +16,7 @@
           <% if params[:admin].present? && params[:admin] == "1" %>
             <a href="gifts/<%= gift.id %>/edit" rel="facebox">Edit</a>
             |
-            <%= link_to 'Remove', gift, :confirm => 'Are you sure you want delete this item from the list?', :method => :delete %>
+            <%= link_to 'Remove', gift, :confirm => 'Are you sure you want delete this item from the list?', :method => :delete  %>
           <% end %>
         </li>
       <% end %>

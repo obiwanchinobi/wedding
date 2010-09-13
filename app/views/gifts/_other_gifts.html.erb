@@ -12,9 +12,9 @@
         <tr>
           <td class="grid_10 alpha"><div class="claimed"><%=h gift.description %></div></td>
           <td class="grid_2 alpha omega">
-            <a href="gifts/<%= gift.id %>/edit" rel="facebox">Edit</a>
+            <a href="gifts/<%= gift.id %>/edit" rel="facebox" class="claimed-link">Edit</a>
             |
-            <%= link_to 'Remove', gift, :confirm => 'Are you sure you want delete this item from the list?', :method => :delete %>
+            <%= link_to 'Remove', gift, :confirm => 'Are you sure you want delete this item from the list?', :method => :delete, :class => "claimed-link" %>
           </td>
         </tr>
       <% end %>
