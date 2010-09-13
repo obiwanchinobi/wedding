@@ -6,12 +6,14 @@ jQuery(document).ready(function($) {
   
   $("tr").hover(
     function () {
-      $(this).find("div.claimed").removeClass("claimed").addClass("claimed-hover");
+      $(this).find("span.claimed").removeClass("claimed").addClass("claimed-hover");
       $(this).find("a.claimed-link").removeClass("claimed-link").addClass("claimed-link-hover");
+      $(this).find("span.claimed-timestamp").removeClass("ui-helper-hidden");
     },
     function () {
-      $(this).find("div.claimed-hover").removeClass("claimed-hover").addClass("claimed");
+      $(this).find("span.claimed-hover").removeClass("claimed-hover").addClass("claimed");
       $(this).find("a.claimed-link-hover").removeClass("claimed-link-hover").addClass("claimed-link");
+      $(this).find("span.claimed-timestamp").addClass("ui-helper-hidden");
     }
   );
 })

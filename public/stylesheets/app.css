@@ -7,5 +7,6 @@ td                  { padding: 1px; }
 .claimed-link       { color: #aaa; }
 .claimed-hover      { color: red; text-decoration: line-through; }
 .claimed-link-hover { color: red; }
+.claimed-timestamp  { color: red; font-size: 10px; padding-left: 5px; }
 table tr:hover      { background-color: #8be; }
 ul li:hover         { background-color: #ff1; }
