@@ -2,5 +2,16 @@
 // This file is automatically included by javascript_include_tag :defaults
 
 jQuery(document).ready(function($) {
-  $('a[rel*=facebox]').facebox()
+  $('a[rel*=facebox]').facebox();
+  
+  $("tr").hover(
+    function () {
+      $(this).find("div.claimed").removeClass("claimed").addClass("claimed-hover");
+      $(this).find("a.claimed-link").removeClass("claimed-link").addClass("claimed-link-hover");
+    },
+    function () {
+      $(this).find("div.claimed-hover").removeClass("claimed-hover").addClass("claimed");
+      $(this).find("a.claimed-link-hover").removeClass("claimed-link-hover").addClass("claimed-link");
+    }
+  );
 })
