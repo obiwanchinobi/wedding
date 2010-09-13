@@ -2,7 +2,7 @@
 
 <% form_for(@gift) do |f| %>
   <%= f.error_messages %>
-
+  <%= f.hidden_field :ip_address %>
   <p>
     <%= f.label :description %><br />
     <%= f.text_field :description %>

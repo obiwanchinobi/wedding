@@ -21,11 +21,11 @@ class GiftsController < ApplicationController
     if params[:is_admin].present?
       @gift =  Gift.new(:is_admin => true)
     elsif params[:other_gift].present?
-      @gift =  Gift.new(:purchased_on => Time.zone.now.to_date)
+      @gift =  Gift.new(:purchased_on => Time.zone.now.to_date, :ip_address => request.remote_ip)
     elsif params[:currently_own].present?
       @gift =  Gift.new(:is_admin => true, :currently_own => true)
     end
-
+    
     respond_to do |format|
       format.html # new.html.erb
       format.xml  { render :xml => @gift }
@@ -85,7 +85,7 @@ class GiftsController < ApplicationController
   
   def purchase
     @gift = Gift.find(params[:id])
-    @gift.purchase
+    @gift.purchase(request.remote_ip)
 
     respond_to do |format|
       format.html { redirect_to(gifts_url) }
