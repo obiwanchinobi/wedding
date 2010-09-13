@@ -10,7 +10,15 @@
     
       <% category.gifts.other_gifts.each do |gift| %>
         <tr>
-          <td class="grid_10 alpha"><div class="claimed"><%=h gift.description %></div></td>
+          <td class="grid_10 alpha">
+            <span class="claimed"><%=h gift.description %></span>
+
+            <% if gift.purchased_on.present? %>
+              <span class="claimed-timestamp ui-helper-hidden">
+                <%=h gift.purchased_on.strftime("(Claimed on %a, %d %b at %I:%M%p)") %>
+              </span>
+            <% end %>
+          </td>
           <td class="grid_2 alpha omega">
             <a href="gifts/<%= gift.id %>/edit" rel="facebox" class="claimed-link">Edit</a>
             |
