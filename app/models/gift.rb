@@ -8,7 +8,7 @@ class Gift < ActiveRecord::Base
   named_scope :other_gifts, :conditions => { :is_admin => false, :currently_own => false }, :order => :description
   
   def purchase(ip)
-    self.purchased_on = Time.zone.now.to_date
+    self.purchased_on = Time.zone.now
     self.ip_address = ip
     self.save!
   end
